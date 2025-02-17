@@ -11,7 +11,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 4 }}
                 >
-                    s
+                    S
                 </motion.a>
                 <motion.a
                     href="#about"
@@ -29,7 +29,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 4.2 }}
                 >
-                    r
+                    R
                 </motion.a>
                 <motion.a
                     href="#about"
@@ -38,7 +38,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 4.3 }}
                 >
-                    v
+                    V
                 </motion.a>
                 <motion.a
                     href="#about"
@@ -56,7 +56,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 4.5 }}
                 >
-                    c
+                    C
                 </motion.a>
                 <motion.a
                     href="#about"
@@ -74,7 +74,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 4.7 }}
                 >
-                    s
+                    S
                 </motion.a>
             </div>
             <div className="absolute left-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pl-5">
@@ -94,7 +94,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 4.9 }}
                 >
-                    b
+                    B
                 </motion.a>
                 <motion.a
                     href="#about"
@@ -112,7 +112,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 5.1 }}
                 >
-                    u
+                    U
                 </motion.a>
                 <motion.a
                     href="#about"
@@ -141,7 +141,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 5.2 }}
                 >
-                    r
+                    R
                 </motion.a>
                 <motion.a
                     href="#about"
@@ -159,7 +159,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 5 }}
                 >
-                    n
+                    N
                 </motion.a>
                 <motion.a
                     href="#about"
@@ -168,7 +168,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 4.9 }}
                 >
-                    c
+                    C
                 </motion.a>
                 <motion.a
                     href="#about"
@@ -177,7 +177,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 4.8 }}
                 >
-                    h
+                    H
                 </motion.a>
             </div>
             <div className="absolute right-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pr-5">
@@ -206,7 +206,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 4.5 }}
                 >
-                    r
+                    R
                 </motion.a>
                 <motion.a
                     href="#about"
@@ -224,7 +224,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 4.3 }}
                 >
-                    n
+                    N
                 </motion.a>
                 <motion.a
                     href="#about"
@@ -242,7 +242,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 4.1 }}
                 >
-                    r
+                    R
                 </motion.a>
                 <motion.a
                     href="#about"
@@ -251,7 +251,7 @@ export default function Tabs() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 4 }}
                 >
-                    s
+                    S
                 </motion.a>
             </div>
         </div>

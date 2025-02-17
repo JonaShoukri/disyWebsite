@@ -297,7 +297,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 4
                         },
-                        children: "s"
+                        children: "S"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 7,
@@ -341,7 +341,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 4.2
                         },
-                        children: "r"
+                        children: "R"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 25,
@@ -363,7 +363,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 4.3
                         },
-                        children: "v"
+                        children: "V"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 34,
@@ -407,7 +407,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 4.5
                         },
-                        children: "c"
+                        children: "C"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 52,
@@ -451,7 +451,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 4.7
                         },
-                        children: "s"
+                        children: "S"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 70,
@@ -504,7 +504,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 4.9
                         },
-                        children: "b"
+                        children: "B"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 90,
@@ -548,7 +548,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 5.1
                         },
-                        children: "u"
+                        children: "U"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 108,
@@ -623,7 +623,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 5.2
                         },
-                        children: "r"
+                        children: "R"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 137,
@@ -667,7 +667,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 5
                         },
-                        children: "n"
+                        children: "N"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 155,
@@ -689,7 +689,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 4.9
                         },
-                        children: "c"
+                        children: "C"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 164,
@@ -711,7 +711,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 4.8
                         },
-                        children: "h"
+                        children: "H"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 173,
@@ -786,7 +786,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 4.5
                         },
-                        children: "r"
+                        children: "R"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 202,
@@ -830,7 +830,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 4.3
                         },
-                        children: "n"
+                        children: "N"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 220,
@@ -874,7 +874,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 4.1
                         },
-                        children: "r"
+                        children: "R"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 238,
@@ -896,7 +896,7 @@ function Tabs() {
                             ease: "easeInOut",
                             delay: 4
                         },
-                        children: "s"
+                        children: "S"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
                         lineNumber: 247,
