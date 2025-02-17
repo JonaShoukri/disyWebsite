@@ -58,9 +58,11 @@ export default function RootLayout({
     <Tabs/>
 
     {/* LOGO */}
-    <div className="flex items-center justify-center min-h-screen">
+    <div
+        className="flex items-center justify-center min-h-screen scale-100 sm:scale-50 md:scale-60 lg:scale-70 xl:scale-80">
         <AnimatedLogo/>
     </div>
+
 
     {/* Page content */}
     {children}
