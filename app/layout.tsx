@@ -59,7 +59,7 @@ export default function RootLayout({
 
     {/* LOGO */}
     <div
-        className="flex items-center justify-center min-h-screen scale-100 sm:scale-50 md:scale-60 lg:scale-70 xl:scale-80">
+        className="flex items-center justify-center min-h-screen scale-50 m:scale-50 lg:scale-100">
         <AnimatedLogo/>
     </div>
 
