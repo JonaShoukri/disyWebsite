@@ -8,7 +8,6 @@ import Partners from "./Parteners";
 import AnimatedLogo from "../AnimatedLogo";
 export default function Nav() {
     const [selectedTab, setSelectedTab] = useState<string | null>(null);
-    const [isHovered, setIsHovered] = useState(false);
 
     return (
         <div>

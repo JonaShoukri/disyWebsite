@@ -3,7 +3,6 @@ import localFont from "next/font/local";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import AnimatedBackground from "@/app/components/AnimatedBackground";
-import AnimatedLogo from "@/app/components/AnimatedLogo";
 import Nav from "@/app/components/Tabs/Nav";
 
 const dirtylineFont = localFont({
