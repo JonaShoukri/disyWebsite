@@ -58,10 +58,7 @@ export default function RootLayout({
     <Nav/>
 
     {/* LOGO */}
-    <div
-        className="flex items-center justify-center min-h-screen scale-50 m:scale-50 lg:scale-100">
-        <AnimatedLogo/>
-    </div>
+
 
 
     {/* Page content */}

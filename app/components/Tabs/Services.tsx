@@ -11,6 +11,7 @@ export default function Services({ setSelectedTab }){
                 initial={{x: -50, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1, ease: "easeInOut", delay: 4}}
+                whileHover={{x: 5, color: '#EAEAEC', transition: { duration: 0.1, ease: "easeInOut" }}}
             >
                 s
             </motion.a>
@@ -19,6 +20,7 @@ export default function Services({ setSelectedTab }){
                 initial={{x: -50, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1, ease: "easeInOut", delay: 4.1}}
+                whileHover={{x: 5, color: '#EAEAEC', transition: { duration: 0.1, ease: "easeInOut" }}}
             >
                 e
             </motion.a>
@@ -27,6 +29,7 @@ export default function Services({ setSelectedTab }){
                 initial={{x: -50, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1, ease: "easeInOut", delay: 4.2}}
+                whileHover={{x: 5, color: '#EAEAEC', transition: { duration: 0.1, ease: "easeInOut" }}}
             >
                 r
             </motion.a>
@@ -35,6 +38,7 @@ export default function Services({ setSelectedTab }){
                 initial={{x: -50, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1, ease: "easeInOut", delay: 4.3}}
+                whileHover={{x: 5, color: '#EAEAEC', transition: { duration: 0.1, ease: "easeInOut" }}}
             >
                 v
             </motion.a>
@@ -43,6 +47,7 @@ export default function Services({ setSelectedTab }){
                 initial={{x: -50, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1, ease: "easeInOut", delay: 4.4}}
+                whileHover={{x: 5, color: '#EAEAEC', transition: { duration: 0.1, ease: "easeInOut" }}}
             >
                 i
             </motion.a>
@@ -51,6 +56,7 @@ export default function Services({ setSelectedTab }){
                 initial={{x: -50, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1, ease: "easeInOut", delay: 4.5}}
+                whileHover={{x: 5, color: '#EAEAEC', transition: { duration: 0.1, ease: "easeInOut" }}}
             >
                 c
             </motion.a>
@@ -59,6 +65,7 @@ export default function Services({ setSelectedTab }){
                 initial={{x: -50, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1, ease: "easeInOut", delay: 4.6}}
+                whileHover={{x: 5, color: '#EAEAEC', transition: { duration: 0.1, ease: "easeInOut" }}}
             >
                 e
             </motion.a>
@@ -67,6 +74,7 @@ export default function Services({ setSelectedTab }){
                 initial={{x: -50, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1, ease: "easeInOut", delay: 4.7}}
+                whileHover={{x: 5, color: '#EAEAEC', transition: { duration: 0.1, ease: "easeInOut" }}}
             >
                 s
             </motion.a>
