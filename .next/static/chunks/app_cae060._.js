@@ -275,17 +275,45 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 'use client';
 ;
 ;
+const tabs = [
+    {
+        text: 'SERViCeS',
+        position: 'left',
+        top: '1/4',
+        delayStart: 4
+    },
+    {
+        text: 'aBoUt',
+        position: 'left',
+        top: '3/4',
+        delayStart: 4.8
+    },
+    {
+        text: 'fReNCH',
+        position: 'right',
+        top: '1/4',
+        delayStart: 5.3,
+        reverse: true
+    },
+    {
+        text: 'paRtNeRS',
+        position: 'right',
+        top: '3/4',
+        delayStart: 4.7,
+        reverse: true
+    }
+];
 function Tabs() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute left-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pl-5",
+        children: tabs.map(({ text, position, top, delayStart, reverse })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: `text-l m:text-l lg:text-2xl ${position === 'left' ? 'text-[#CEABC1] pl-5' : 'text-[#EAEAEC] pr-5'} 
+            absolute ${position}-0 top-${top} transform -translate-y-1/2 flex flex-col items-center group`,
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+                    ...reverse ? text.split('') : text
+                ].map((char, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
                         href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
                         initial: {
-                            x: -50,
+                            x: position === 'left' ? -50 : 50,
                             opacity: 0
                         },
                         animate: {
@@ -294,624 +322,23 @@ function Tabs() {
                         },
                         transition: {
                             duration: 1,
-                            ease: "easeInOut",
-                            delay: 4
+                            ease: 'easeInOut',
+                            delay: delayStart + i * 0.1 * (reverse ? -1 : 1)
                         },
-                        children: "S"
-                    }, void 0, false, {
+                        children: char
+                    }, i, false, {
                         fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 7,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: -50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.1
-                        },
-                        children: "e"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 16,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: -50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.2
-                        },
-                        children: "R"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 25,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: -50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.3
-                        },
-                        children: "V"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 34,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: -50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.4
-                        },
-                        children: "i"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 43,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: -50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.5
-                        },
-                        children: "C"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 52,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: -50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.6
-                        },
-                        children: "e"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 61,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: -50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.7
-                        },
-                        children: "S"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 70,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
+                        lineNumber: 21,
+                        columnNumber: 25
+                    }, this))
+            }, text, false, {
                 fileName: "[project]/app/components/Tabs.tsx",
-                lineNumber: 6,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute left-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pl-5",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#EAEAEC] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#CEABC1] transition-colors duration-200",
-                        initial: {
-                            x: -50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.8
-                        },
-                        children: "a"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 81,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#EAEAEC] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#CEABC1] transition-colors duration-200",
-                        initial: {
-                            x: -50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.9
-                        },
-                        children: "B"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 90,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#EAEAEC] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#CEABC1] transition-colors duration-200",
-                        initial: {
-                            x: -50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 5
-                        },
-                        children: "o"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 99,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#EAEAEC] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#CEABC1] transition-colors duration-200",
-                        initial: {
-                            x: -50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 5.1
-                        },
-                        children: "U"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 108,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#EAEAEC] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#CEABC1] transition-colors duration-200",
-                        initial: {
-                            x: -50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 5.2
-                        },
-                        children: "t"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 117,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/components/Tabs.tsx",
-                lineNumber: 80,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute right-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pr-5",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#EAEAEC] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#CEABC1] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 5.3
-                        },
-                        children: "f"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 128,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#EAEAEC] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#CEABC1] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 5.2
-                        },
-                        children: "R"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 137,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#EAEAEC] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#CEABC1] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 5.1
-                        },
-                        children: "e"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 146,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#EAEAEC] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#CEABC1] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 5
-                        },
-                        children: "N"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 155,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#EAEAEC] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#CEABC1] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.9
-                        },
-                        children: "C"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 164,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#EAEAEC] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#CEABC1] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.8
-                        },
-                        children: "H"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 173,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/components/Tabs.tsx",
-                lineNumber: 127,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute right-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pr-5",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.7
-                        },
-                        children: "p"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 184,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.6
-                        },
-                        children: "a"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 193,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.5
-                        },
-                        children: "R"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 202,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.4
-                        },
-                        children: "t"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 211,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.3
-                        },
-                        children: "N"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 220,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.2
-                        },
-                        children: "e"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 229,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4.1
-                        },
-                        children: "R"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 238,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: "#about",
-                        className: "text-2xl text-[#CEABC1] cursor-pointer transform transition-transform duration-500 ease-in-out hover:scale-110 group-hover:text-[#EAEAEC] transition-colors duration-200",
-                        initial: {
-                            x: 50,
-                            opacity: 0
-                        },
-                        animate: {
-                            x: 0,
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: 4
-                        },
-                        children: "S"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Tabs.tsx",
-                        lineNumber: 247,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/components/Tabs.tsx",
-                lineNumber: 183,
-                columnNumber: 13
-            }, this)
-        ]
-    }, void 0, true, {
+                lineNumber: 15,
+                columnNumber: 17
+            }, this))
+    }, void 0, false, {
         fileName: "[project]/app/components/Tabs.tsx",
-        lineNumber: 5,
+        lineNumber: 13,
         columnNumber: 9
     }, this);
 }
