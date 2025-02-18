@@ -1,7 +1,11 @@
 "use client"
 import {motion} from "framer-motion";
 
-export default function About({ setSelectedTab }){
+interface AboutProps {
+    setSelectedTab: (tab: string | null) => void;
+}
+
+export default function About({ setSelectedTab }: AboutProps){
     return (
         <div
             className="text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute left-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pl-5"
