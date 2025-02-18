@@ -4,7 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import AnimatedBackground from "@/app/components/AnimatedBackground";
 import AnimatedLogo from "@/app/components/AnimatedLogo";
-import Tabs from "@/app/components/Tabs";
+import Nav from "@/app/components/Tabs/Nav";
 
 const dirtylineFont = localFont({
     src: [
@@ -54,8 +54,8 @@ export default function RootLayout({
     {/* Background for all pages */}
     <AnimatedBackground/>
 
-    {/* TABS */}
-    <Tabs/>
+    {/* NAV */}
+    <Nav/>
 
     {/* LOGO */}
     <div
