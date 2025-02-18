@@ -4,7 +4,7 @@ export default function Tabs() {
     return (
         <div>
             <div
-                className="text-2xl text-[#CEABC1] absolute left-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pl-5">
+                className="text-l m:text-l lg:text-2xl text-[#CEABC1] absolute left-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pl-5">
                 <motion.a
                     href="#about"
                     initial={{ x: -50, opacity: 0 }}
@@ -70,7 +70,7 @@ export default function Tabs() {
                     S
                 </motion.a>
             </div>
-            <div className="text-2xl text-[#EAEAEC] absolute left-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pl-5">
+            <div className="text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute left-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pl-5">
                 <motion.a
                     href="#about"
                     initial={{ x: -50, opacity: 0 }}
@@ -112,7 +112,7 @@ export default function Tabs() {
                     t
                 </motion.a>
             </div>
-            <div className="text-2xl text-[#EAEAEC] absolute right-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pr-5">
+            <div className="text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute right-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pr-5">
                 <motion.a
                     href="#about"
                     initial={{ x: 50, opacity: 0 }}
@@ -162,7 +162,7 @@ export default function Tabs() {
                     H
                 </motion.a>
             </div>
-            <div className="text-2xl text-[#CEABC1] absolute right-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pr-5">
+            <div className="text-l m:text-l lg:text-2xl text-[#CEABC1] absolute right-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pr-5">
                 <motion.a
                     href="#about"
                     initial={{ x: 50, opacity: 0 }}

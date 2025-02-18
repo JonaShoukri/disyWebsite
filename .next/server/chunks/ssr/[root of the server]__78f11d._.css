@@ -538,11 +538,6 @@ img, video {
   padding-right: 1.25rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
@@ -629,6 +624,11 @@ a:hover {
     --tw-scale-x: 1;
     --tw-scale-y: 1;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
