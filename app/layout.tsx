@@ -56,11 +56,6 @@ export default function RootLayout({
     {/* NAV */}
     <Nav/>
 
-    {/* LOGO */}
-
-
-
-    {/* Page content */}
     {children}
     </body>
     </html>
