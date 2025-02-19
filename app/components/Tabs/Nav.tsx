@@ -13,9 +13,9 @@ export default function Nav() {
         <div>
 
             <motion.div
-                initial={{scale: 1, y: 0}}
-                animate={selectedTab ? {scale: 0.4, y: "46vh"} : {scale: 1, y: 0}}
-                transition={{duration: 1.2, ease: "easeInOut"}}
+                initial={{ scale: 1, y: 0 }}
+                animate={selectedTab ? { scale: 0.4, y: "calc(46vh - 10px)" } : { scale: 1, y: 0 }}
+                transition={{ duration: 1.2, ease: "easeInOut" }}
             >
                 <div
                     className="flex items-center justify-center min-h-screen scale-50 m:scale-50 lg:scale-100">

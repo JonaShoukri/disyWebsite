@@ -582,6 +582,14 @@ img, video {
   background-size: 16px 16px;
 }
 
+.\[background-size\:40px_40px\] {
+  background-size: 40px 40px;
+}
+
+.\[background-size\:80px_80px\] {
+  background-size: 80px 80px;
+}
+
 .\[mask-image\:radial-gradient\(ellipse_50\%_50\%_at_50\%_50\%\,\#000_70\%\,transparent_100\%\)\] {
   mask-image: radial-gradient(50% 50%, #000 70%, #0000 100%);
 }

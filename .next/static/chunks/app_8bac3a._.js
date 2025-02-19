@@ -1269,7 +1269,7 @@ function Nav() {
                 },
                 animate: selectedTab ? {
                     scale: 0.4,
-                    y: "46vh"
+                    y: "calc(46vh - 10px)"
                 } : {
                     scale: 1,
                     y: 0
