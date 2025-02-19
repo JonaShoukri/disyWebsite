@@ -13,7 +13,7 @@ export default function Nav() {
     useEffect(() => {
         const updateYOffset = () => {
             if (window.innerWidth < 768) {
-                setYOffset("35vh"); // Adjust for mobile
+                setYOffset("37vh"); // Adjust for mobile
             } else {
                 setYOffset("46vh"); // Default for larger screens
             }
