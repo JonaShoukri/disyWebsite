@@ -11,7 +11,15 @@ export default function Nav() {
     const [offsetY, setOffsetY] = useState(0);
 
     useEffect(() => {
-        setOffsetY(window.innerHeight * 0.46);
+        const updateOffset = () => {
+            const viewportHeight = window.visualViewport?.height || window.innerHeight;
+            setOffsetY(viewportHeight * 0.46); // Adjust as needed
+        };
+
+        updateOffset(); // Run initially
+
+        window.addEventListener("resize", updateOffset);
+        return () => window.removeEventListener("resize", updateOffset);
     }, []);
 
     return (
