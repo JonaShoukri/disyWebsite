@@ -18,7 +18,8 @@ export default function Nav() {
                 transition={{duration: 1.2, ease: "easeInOut"}}
             >
                 <div
-                    className="flex items-center justify-center min-h-screen scale-50 m:scale-50 lg:scale-100">
+                    className="flex items-center justify-center min-h-screen scale-50 m:scale-50 lg:scale-100"
+                onClick={() => setSelectedTab(null)}>
                     <AnimatedLogo/>
                 </div>
             </motion.div>

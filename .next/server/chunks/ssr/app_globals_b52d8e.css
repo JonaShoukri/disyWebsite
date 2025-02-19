@@ -352,16 +352,16 @@ img, video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.resize {
-  resize: both;
-}
-
 .flex-col {
   flex-direction: column;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -422,14 +422,6 @@ img, video {
 
 .\[background-size\:16px_16px\] {
   background-size: 16px 16px;
-}
-
-.\[background-size\:40px_40px\] {
-  background-size: 40px 40px;
-}
-
-.\[background-size\:80px_80px\] {
-  background-size: 80px 80px;
 }
 
 .\[mask-image\:radial-gradient\(ellipse_50\%_50\%_at_50\%_50\%\,\#000_70\%\,transparent_100\%\)\] {
