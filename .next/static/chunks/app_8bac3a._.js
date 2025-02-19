@@ -1266,7 +1266,7 @@ function Nav() {
             const updateYOffset = {
                 "Nav.useEffect.updateYOffset": ()=>{
                     if (window.innerWidth < 768) {
-                        setYOffset("40vh"); // Adjust for mobile
+                        setYOffset("35vh"); // Adjust for mobile
                     } else {
                         setYOffset("46vh"); // Default for larger screens
                     }
