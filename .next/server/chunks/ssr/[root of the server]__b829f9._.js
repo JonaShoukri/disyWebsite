@@ -104,251 +104,252 @@ __turbopack_esm__({
     "default": (()=>Services)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
 "use client";
 ;
 ;
+;
 function Services({ setSelectedTab }) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "text-l m:text-l lg:text-2xl text-[#CEABC1] absolute left-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pl-5",
-        onClick: ()=>setSelectedTab("services"),
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: -50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4
-                },
-                whileHover: {
-                    x: 5,
-                    color: '#EAEAEC',
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        href: "/services",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "text-l m:text-l lg:text-2xl text-[#CEABC1] absolute left-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pl-5",
+            onClick: ()=>setSelectedTab("services"),
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: -50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "s"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Services.tsx",
-                lineNumber: 13,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: -50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.1
-                },
-                whileHover: {
-                    x: 5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4
+                    },
+                    whileHover: {
+                        x: 5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "s"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Services.tsx",
+                    lineNumber: 15,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: -50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "e"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Services.tsx",
-                lineNumber: 22,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: -50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.2
-                },
-                whileHover: {
-                    x: 5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.1
+                    },
+                    whileHover: {
+                        x: 5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "e"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Services.tsx",
+                    lineNumber: 23,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: -50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "r"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Services.tsx",
-                lineNumber: 31,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: -50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.3
-                },
-                whileHover: {
-                    x: 5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.2
+                    },
+                    whileHover: {
+                        x: 5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "r"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Services.tsx",
+                    lineNumber: 31,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: -50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "v"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Services.tsx",
-                lineNumber: 40,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: -50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.4
-                },
-                whileHover: {
-                    x: 5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.3
+                    },
+                    whileHover: {
+                        x: 5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "v"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Services.tsx",
+                    lineNumber: 39,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: -50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "i"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Services.tsx",
-                lineNumber: 49,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: -50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.5
-                },
-                whileHover: {
-                    x: 5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.4
+                    },
+                    whileHover: {
+                        x: 5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "i"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Services.tsx",
+                    lineNumber: 47,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: -50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "c"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Services.tsx",
-                lineNumber: 58,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: -50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.6
-                },
-                whileHover: {
-                    x: 5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.5
+                    },
+                    whileHover: {
+                        x: 5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "c"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Services.tsx",
+                    lineNumber: 55,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: -50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "e"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Services.tsx",
-                lineNumber: 67,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: -50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.7
-                },
-                whileHover: {
-                    x: 5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.6
+                    },
+                    whileHover: {
+                        x: 5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "e"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Services.tsx",
+                    lineNumber: 63,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: -50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "s"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Services.tsx",
-                lineNumber: 76,
-                columnNumber: 13
-            }, this)
-        ]
-    }, void 0, true, {
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.7
+                    },
+                    whileHover: {
+                        x: 5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "s"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Services.tsx",
+                    lineNumber: 71,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/components/Tabs/Services.tsx",
+            lineNumber: 12,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/app/components/Tabs/Services.tsx",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 9
     }, this);
 }
@@ -362,164 +363,170 @@ __turbopack_esm__({
     "default": (()=>About)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
 "use client";
 ;
 ;
+;
 function About({ setSelectedTab }) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute left-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pl-5",
-        onClick: ()=>setSelectedTab("about"),
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: -50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.8
-                },
-                whileHover: {
-                    x: 5,
-                    color: '#CEABC1',
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        href: "/about",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute left-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pl-5",
+            onClick: ()=>{
+                setSelectedTab("about");
+            },
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: -50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "a"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/About.tsx",
-                lineNumber: 13,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: -50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.9
-                },
-                whileHover: {
-                    x: 5,
-                    color: '#CEABC1',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.8
+                    },
+                    whileHover: {
+                        x: 5,
+                        color: '#CEABC1',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "a"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/About.tsx",
+                    lineNumber: 17,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: -50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "b"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/About.tsx",
-                lineNumber: 22,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: -50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 5
-                },
-                whileHover: {
-                    x: 5,
-                    color: '#CEABC1',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.9
+                    },
+                    whileHover: {
+                        x: 5,
+                        color: '#CEABC1',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "b"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/About.tsx",
+                    lineNumber: 25,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: -50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "o"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/About.tsx",
-                lineNumber: 31,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: -50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 5.1
-                },
-                whileHover: {
-                    x: 5,
-                    color: '#CEABC1',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 5
+                    },
+                    whileHover: {
+                        x: 5,
+                        color: '#CEABC1',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "o"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/About.tsx",
+                    lineNumber: 33,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: -50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "u"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/About.tsx",
-                lineNumber: 40,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: -50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 5.2
-                },
-                whileHover: {
-                    x: 5,
-                    color: '#CEABC1',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 5.1
+                    },
+                    whileHover: {
+                        x: 5,
+                        color: '#CEABC1',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "u"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/About.tsx",
+                    lineNumber: 41,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: -50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "t"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/About.tsx",
-                lineNumber: 49,
-                columnNumber: 13
-            }, this)
-        ]
-    }, void 0, true, {
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 5.2
+                    },
+                    whileHover: {
+                        x: 5,
+                        color: '#CEABC1',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "t"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/About.tsx",
+                    lineNumber: 49,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/components/Tabs/About.tsx",
+            lineNumber: 12,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/app/components/Tabs/About.tsx",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 9
     }, this);
 }
@@ -542,8 +549,7 @@ function French({ setSelectedTab }) {
         className: "text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute right-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pr-5",
         onClick: ()=>setSelectedTab("french"),
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
                 initial: {
                     x: 50,
                     opacity: 0
@@ -571,8 +577,7 @@ function French({ setSelectedTab }) {
                 lineNumber: 13,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
                 initial: {
                     x: 50,
                     opacity: 0
@@ -597,11 +602,10 @@ function French({ setSelectedTab }) {
                 children: "r"
             }, void 0, false, {
                 fileName: "[project]/app/components/Tabs/French.tsx",
-                lineNumber: 22,
+                lineNumber: 21,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
                 initial: {
                     x: 50,
                     opacity: 0
@@ -626,11 +630,10 @@ function French({ setSelectedTab }) {
                 children: "a"
             }, void 0, false, {
                 fileName: "[project]/app/components/Tabs/French.tsx",
-                lineNumber: 31,
+                lineNumber: 29,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
                 initial: {
                     x: 50,
                     opacity: 0
@@ -655,11 +658,10 @@ function French({ setSelectedTab }) {
                 children: "n"
             }, void 0, false, {
                 fileName: "[project]/app/components/Tabs/French.tsx",
-                lineNumber: 40,
+                lineNumber: 37,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
                 initial: {
                     x: 50,
                     opacity: 0
@@ -684,11 +686,10 @@ function French({ setSelectedTab }) {
                 children: "ç"
             }, void 0, false, {
                 fileName: "[project]/app/components/Tabs/French.tsx",
-                lineNumber: 49,
+                lineNumber: 45,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
                 initial: {
                     x: 50,
                     opacity: 0
@@ -713,11 +714,10 @@ function French({ setSelectedTab }) {
                 children: "a"
             }, void 0, false, {
                 fileName: "[project]/app/components/Tabs/French.tsx",
-                lineNumber: 58,
+                lineNumber: 53,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
                 initial: {
                     x: 50,
                     opacity: 0
@@ -742,11 +742,10 @@ function French({ setSelectedTab }) {
                 children: "i"
             }, void 0, false, {
                 fileName: "[project]/app/components/Tabs/French.tsx",
-                lineNumber: 67,
+                lineNumber: 61,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
                 initial: {
                     x: 50,
                     opacity: 0
@@ -771,7 +770,7 @@ function French({ setSelectedTab }) {
                 children: "s"
             }, void 0, false, {
                 fileName: "[project]/app/components/Tabs/French.tsx",
-                lineNumber: 76,
+                lineNumber: 69,
                 columnNumber: 13
             }, this)
         ]
@@ -791,251 +790,252 @@ __turbopack_esm__({
     "default": (()=>Partners)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
 "use client";
 ;
 ;
+;
 function Partners({ setSelectedTab }) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "text-l m:text-l lg:text-2xl text-[#CEABC1] absolute right-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pr-5",
-        onClick: ()=>setSelectedTab("about"),
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: 50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.7
-                },
-                whileHover: {
-                    x: -5,
-                    color: '#EAEAEC',
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        href: "/partners",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "text-l m:text-l lg:text-2xl text-[#CEABC1] absolute right-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pr-5",
+            onClick: ()=>setSelectedTab("partners"),
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: 50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "p"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Parteners.tsx",
-                lineNumber: 13,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: 50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.6
-                },
-                whileHover: {
-                    x: -5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.7
+                    },
+                    whileHover: {
+                        x: -5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "p"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Parteners.tsx",
+                    lineNumber: 15,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: 50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "a"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Parteners.tsx",
-                lineNumber: 22,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: 50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.5
-                },
-                whileHover: {
-                    x: -5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.6
+                    },
+                    whileHover: {
+                        x: -5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "a"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Parteners.tsx",
+                    lineNumber: 23,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: 50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "r"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Parteners.tsx",
-                lineNumber: 31,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: 50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.4
-                },
-                whileHover: {
-                    x: -5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.5
+                    },
+                    whileHover: {
+                        x: -5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "r"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Parteners.tsx",
+                    lineNumber: 31,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: 50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "t"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Parteners.tsx",
-                lineNumber: 40,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: 50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.3
-                },
-                whileHover: {
-                    x: -5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.4
+                    },
+                    whileHover: {
+                        x: -5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "t"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Parteners.tsx",
+                    lineNumber: 39,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: 50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "n"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Parteners.tsx",
-                lineNumber: 49,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: 50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.2
-                },
-                whileHover: {
-                    x: -5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.3
+                    },
+                    whileHover: {
+                        x: -5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "n"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Parteners.tsx",
+                    lineNumber: 47,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: 50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "e"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Parteners.tsx",
-                lineNumber: 58,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: 50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4.1
-                },
-                whileHover: {
-                    x: -5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.2
+                    },
+                    whileHover: {
+                        x: -5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "e"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Parteners.tsx",
+                    lineNumber: 55,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: 50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "r"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Parteners.tsx",
-                lineNumber: 67,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
-                href: "#about",
-                initial: {
-                    x: 50,
-                    opacity: 0
-                },
-                animate: {
-                    x: 0,
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1,
-                    ease: "easeInOut",
-                    delay: 4
-                },
-                whileHover: {
-                    x: -5,
-                    color: '#EAEAEC',
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4.1
+                    },
+                    whileHover: {
+                        x: -5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "r"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Parteners.tsx",
+                    lineNumber: 63,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
+                    initial: {
+                        x: 50,
+                        opacity: 0
+                    },
+                    animate: {
+                        x: 0,
+                        opacity: 1
+                    },
                     transition: {
-                        duration: 0.1,
-                        ease: "easeInOut"
-                    }
-                },
-                children: "s"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Tabs/Parteners.tsx",
-                lineNumber: 76,
-                columnNumber: 13
-            }, this)
-        ]
-    }, void 0, true, {
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: 4
+                    },
+                    whileHover: {
+                        x: -5,
+                        color: '#EAEAEC',
+                        transition: {
+                            duration: 0.1,
+                            ease: "easeInOut"
+                        }
+                    },
+                    children: "s"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/Tabs/Parteners.tsx",
+                    lineNumber: 71,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/components/Tabs/Parteners.tsx",
+            lineNumber: 12,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/app/components/Tabs/Parteners.tsx",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 9
     }, this);
 }
@@ -1278,7 +1278,7 @@ function Nav() {
             }, void 0, false, {
                 fileName: "[project]/app/components/Tabs/Nav.tsx",
                 lineNumber: 49,
-                columnNumber: 17
+                columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
