@@ -244,7 +244,7 @@ function RootLayout({ children }) {
                     children: children
                 }, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 60,
+                    lineNumber: 59,
                     columnNumber: 5
                 }, this)
             ]

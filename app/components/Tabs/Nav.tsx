@@ -6,6 +6,7 @@ import About from './About'
 import French from './French'
 import Partners from "./Parteners";
 import AnimatedLogo from "../AnimatedLogo";
+import { useRouter } from "next/navigation";
 export default function Nav() {
     const [selectedTab, setSelectedTab] = useState<string | null>(null);
     const [yOffset, setYOffset] = useState("46vh");
@@ -25,8 +26,10 @@ export default function Nav() {
         return () => window.removeEventListener("resize", updateYOffset);
     }, []);
 
+    const router = useRouter();
+
     return (
-        <div>
+        <div className="relative z-50">
 
             <motion.div
                 initial={{scale: 1, y: 0}}
@@ -35,9 +38,13 @@ export default function Nav() {
             >
                 <div
                     className="flex items-center justify-center min-h-screen scale-50 m:scale-50 lg:scale-100 cursor-pointer"
-                    onClick={() => setSelectedTab(null)}>
+                    onClick={() => {
+                        setSelectedTab(null);
+                        router.push("/");
+                    }}>
                     <AnimatedLogo/>
                 </div>
+
             </motion.div>
 
             <div>

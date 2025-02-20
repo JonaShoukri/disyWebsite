@@ -56,7 +56,6 @@ export default function RootLayout({
     {/* NAV */}
     <Nav/>
 
-
     <main>{children}</main>
     </body>
     </html>
