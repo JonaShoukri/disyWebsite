@@ -2,16 +2,11 @@
 import {motion} from "framer-motion";
 import Link from "next/link";
 
-interface ServicesProps {
-    setSelectedTab: (tab: string | null) => void;
-}
-
-export default function Services({ setSelectedTab }: ServicesProps){
+export default function Services(){
     return (
         <Link href="/services">
             <div
-                className="text-l m:text-l lg:text-2xl text-[#CEABC1] absolute left-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pl-5"
-                onClick={() => setSelectedTab("services")}>
+                className="text-l m:text-l lg:text-2xl text-[#CEABC1] absolute left-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pl-5">
                 <motion.span
                     initial={{x: -50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}

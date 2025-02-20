@@ -2,18 +2,12 @@
 import {motion} from "framer-motion";
 import Link from "next/link";
 
-interface AboutProps {
-    setSelectedTab: (tab: string | null) => void;
-}
 
-export default function About({ setSelectedTab }: AboutProps){
+export default function About(){
     return (
         <Link href="/about">
             <div
-                className="text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute left-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pl-5"
-                onClick={() => {
-                    setSelectedTab("about");
-                }}>
+                className="text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute left-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pl-5">
                 <motion.span
                     initial={{x: -50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}

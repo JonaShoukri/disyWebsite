@@ -7,9 +7,11 @@ import French from './French'
 import Partners from "./Parteners";
 import AnimatedLogo from "../AnimatedLogo";
 import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 export default function Nav() {
-    const [selectedTab, setSelectedTab] = useState<string | null>(null);
     const [yOffset, setYOffset] = useState("46vh");
+    const pathname = usePathname();
+    const isRoot = pathname === "/";
 
     useEffect(() => {
         const updateYOffset = () => {
@@ -33,13 +35,12 @@ export default function Nav() {
 
             <motion.div
                 initial={{scale: 1, y: 0}}
-                animate={selectedTab ? {scale: 0.4, y: yOffset} : {scale: 1, y: 0}}
+                animate={!isRoot ? {scale: 0.4, y: yOffset} : {scale: 1, y: 0}}
                 transition={{duration: 1.2, ease: "easeInOut"}}
             >
                 <div
                     className="flex items-center justify-center min-h-screen scale-50 m:scale-50 lg:scale-100 cursor-pointer"
                     onClick={() => {
-                        setSelectedTab(null);
                         router.push("/");
                     }}>
                     <AnimatedLogo/>
@@ -48,12 +49,12 @@ export default function Nav() {
             </motion.div>
 
             <div>
-                <Services setSelectedTab={setSelectedTab}/>
+                <Services/>
             </div>
 
-            <About setSelectedTab={setSelectedTab}/>
-            <French setSelectedTab={setSelectedTab}/>
-            <Partners setSelectedTab={setSelectedTab}/>
+            <About/>
+            <French/>
+            <Partners/>
         </div>
     );
 }

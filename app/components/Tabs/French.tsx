@@ -1,15 +1,10 @@
 "use client"
 import {motion} from "framer-motion";
 
-interface FrenchProps {
-    setSelectedTab: (tab: string | null) => void;
-}
-
-export default function French({setSelectedTab}: FrenchProps){
+export default function French(){
     return (
         <div
-            className="text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute right-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pr-5"
-            onClick={() => setSelectedTab("french")}>
+            className="text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute right-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pr-5">
             <motion.span
                 initial={{x: 50, opacity: 0}}
                 animate={{x: 0, opacity: 1}}

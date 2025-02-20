@@ -2,16 +2,11 @@
 import {motion} from "framer-motion";
 import Link from "next/link";
 
-interface PartnersProps {
-    setSelectedTab: (tab: string | null) => void;
-}
-
-export default function Partners({setSelectedTab}: PartnersProps){
+export default function Partners(){
     return (
         <Link href="/partners">
             <div
-                className="text-l m:text-l lg:text-2xl text-[#CEABC1] absolute right-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pr-5"
-                onClick={() => setSelectedTab("partners")}>
+                className="text-l m:text-l lg:text-2xl text-[#CEABC1] absolute right-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pr-5">
                 <motion.span
                     initial={{x: 50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
