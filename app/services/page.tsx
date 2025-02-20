@@ -10,9 +10,9 @@ export default function ServicesPage() {
                     initial={{ y: -50, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 1 }}
-                    className="col-span-1 justify-self-start text-left pl-14 pt-2" 
+                    className="col-span-1 justify-self-start text-left pl-14 pt-2 "
                 >
-                    <p className="text-4xl md:text-5xl lg:text-6xl text-[#EAEAEC]">
+                    <p className="text-3xl md:text-3xl lg:text-6xl text-[#EAEAEC]">
                         Services
                     </p>
                 </motion.div>
