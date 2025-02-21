@@ -12,7 +12,7 @@ export default function ServicesPage() {
                     transition={{ duration: 1, ease: "easeInOut", delay: 1 }}
                     className="col-span-1 justify-self-start text-left pl-14 pt-2 font-bold"
                 >
-                    <p className="text-3xl md:text-3xl lg:text-6xl text-[#EAEAEC]">
+                    <p className="text-2xl md:text-2xl lg:text-6xl text-[#EAEAEC]">
                         SERVICES
                     </p>
                 </motion.div>

@@ -833,7 +833,7 @@ function Partners() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
         href: "/partners",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "text-l m:text-l lg:text-2xl text-[#CEABC1] absolute right-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pr-5",
+            className: "text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute right-0 top-3/4 transform -translate-y-1/2 flex flex-col items-center group pr-5",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
                     initial: {
@@ -851,7 +851,7 @@ function Partners() {
                     },
                     whileHover: {
                         x: -5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -879,7 +879,7 @@ function Partners() {
                     },
                     whileHover: {
                         x: -5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -907,7 +907,7 @@ function Partners() {
                     },
                     whileHover: {
                         x: -5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -935,7 +935,7 @@ function Partners() {
                     },
                     whileHover: {
                         x: -5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -963,7 +963,7 @@ function Partners() {
                     },
                     whileHover: {
                         x: -5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -991,7 +991,7 @@ function Partners() {
                     },
                     whileHover: {
                         x: -5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -1019,7 +1019,7 @@ function Partners() {
                     },
                     whileHover: {
                         x: -5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -1047,7 +1047,7 @@ function Partners() {
                     },
                     whileHover: {
                         x: -5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
