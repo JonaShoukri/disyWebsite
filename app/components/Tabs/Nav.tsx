@@ -34,15 +34,12 @@ export default function Nav() {
         <div className="relative z-50">
 
             <motion.div
-                initial={{scale: 1, y: 0}}
+                initial={!isRoot ? {scale: 0.4, y: yOffset} : {scale: 1, y: 0}}
                 animate={!isRoot ? {scale: 0.4, y: yOffset} : {scale: 1, y: 0}}
                 transition={{duration: 1.2, ease: "easeInOut"}}
             >
                 <div
-                    className="flex items-center justify-center min-h-screen scale-50 m:scale-50 lg:scale-100 cursor-pointer"
-                    onClick={() => {
-                        router.push("/");
-                    }}>
+                    className="flex items-center justify-center min-h-screen scale-50 m:scale-50 lg:scale-100 cursor-pointer">
                     <AnimatedLogo/>
                 </div>
 
