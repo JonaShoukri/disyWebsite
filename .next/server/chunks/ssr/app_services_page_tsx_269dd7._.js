@@ -33,9 +33,9 @@ function ServicesPage() {
                         ease: "easeInOut",
                         delay: 1
                     },
-                    className: "col-span-1 justify-self-start text-left pl-14 pt-2 font-bold",
+                    className: "col-span-1 justify-self-center text-left pt-2 pl-14",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-2xl md:text-2xl lg:text-6xl text-[#EAEAEC]",
+                        className: "bold-text text-2xl md:text-2xl lg:text-6xl text-[#CEABC1]",
                         children: "SERVICES"
                     }, void 0, false, {
                         fileName: "[project]/app/services/page.tsx",
@@ -54,7 +54,7 @@ function ServicesPage() {
                         "development",
                         "web mastering",
                         "ux/ui design"
-                    ].map((service, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
+                    ].map((service, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                             className: "text-lg md:text-xl py-1",
                             initial: {
                                 x: index % 2 === 0 ? 50 : -50,
@@ -64,20 +64,21 @@ function ServicesPage() {
                                 x: 0,
                                 opacity: 1
                             },
+                            whileHover: {
+                                x: 5
+                            },
                             transition: {
                                 duration: 1,
                                 ease: "easeInOut",
                                 delay: 1
                             },
-                            whileHover: {
-                                x: 5,
-                                color: "#CEABC1",
-                                transition: {
-                                    duration: 0.1,
-                                    ease: "easeInOut"
-                                }
-                            },
-                            children: service
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: service
+                            }, void 0, false, {
+                                fileName: "[project]/app/services/page.tsx",
+                                lineNumber: 32,
+                                columnNumber: 33
+                            }, this)
                         }, service, false, {
                             fileName: "[project]/app/services/page.tsx",
                             lineNumber: 24,

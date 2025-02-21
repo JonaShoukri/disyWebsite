@@ -6,7 +6,6 @@
   --background: #ffffff;
   --foreground: #171717;
   --font-dirtyline: "Dirtyline 36daysoftype 2022", sans-serif;
-  --font-absans: "Absans-Regular", sans-serif;
   --font-nohemi: "Nohemi-Regular", sans-serif;
 }
 
@@ -39,4 +38,26 @@ a:hover {
 
 .animated-logo {
   font-family: var(--font-dirtyline), sans-serif;
+}
+
+/* FONT STYLES */
+
+.thin-text {
+  font-family: var(--font-nohemi);
+  font-weight: 100; /* Thin */
+}
+
+.regular-text {
+  font-family: var(--font-nohemi);
+  font-weight: 400; /* Regular */
+}
+
+.bold-text {
+  font-family: var(--font-nohemi);
+  font-weight: 700; /* Bold */
+}
+
+.extra-bold-text {
+  font-family: var(--font-nohemi);
+  font-weight: 800; /* Extra Bold */
 }

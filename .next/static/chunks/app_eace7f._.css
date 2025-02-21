@@ -1,7 +1,7 @@
 /* [project]/app/dirtylinefont_9d72121b.module.css [app-client] (css) */
 @font-face {
   font-family: dirtylineFont;
-  src: url("/_next/static/media/Dirtyline 36daysoftype 2022-s.p.63205cba.woff2") format("woff2");
+  src: url("../media/Dirtyline 36daysoftype 2022-s.p.63205cba.woff2") format("woff2");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: dirtylineFont;
-  src: url("/_next/static/media/Dirtyline 36daysoftype 2022-s.p.adbc548a.woff") format("woff");
+  src: url("../media/Dirtyline 36daysoftype 2022-s.p.adbc548a.woff") format("woff");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: dirtylineFont;
-  src: url("/_next/static/media/Dirtyline 36daysoftype 2022-s.p.a158502f.ttf") format("truetype");
+  src: url("../media/Dirtyline 36daysoftype 2022-s.p.a158502f.ttf") format("truetype");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -44,7 +44,7 @@
 /* [project]/app/dirtylinefont_9d72121b.module.css [app-client] (css) */
 @font-face {
   font-family: dirtylineFont;
-  src: url("/_next/static/media/Dirtyline 36daysoftype 2022-s.p.63205cba.woff2") format("woff2");
+  src: url("../media/Dirtyline 36daysoftype 2022-s.p.63205cba.woff2") format("woff2");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -52,7 +52,7 @@
 
 @font-face {
   font-family: dirtylineFont;
-  src: url("/_next/static/media/Dirtyline 36daysoftype 2022-s.p.adbc548a.woff") format("woff");
+  src: url("../media/Dirtyline 36daysoftype 2022-s.p.adbc548a.woff") format("woff");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -60,7 +60,7 @@
 
 @font-face {
   font-family: dirtylineFont;
-  src: url("/_next/static/media/Dirtyline 36daysoftype 2022-s.p.a158502f.ttf") format("truetype");
+  src: url("../media/Dirtyline 36daysoftype 2022-s.p.a158502f.ttf") format("truetype");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -84,12 +84,36 @@
 }
 
 
-/* [project]/app/nohemifont_f39f6d7.module.css [app-client] (css) */
+/* [project]/app/nohemifont_336cac11.module.css [app-client] (css) */
 @font-face {
   font-family: nohemiFont;
-  src: url("/_next/static/media/Nohemi_Regular-s.p.75b0e396.woff2") format("woff2");
+  src: url("../media/Nohemi_Thin-s.p.8d43678e.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nohemiFont;
+  src: url("../media/Nohemi_Regular-s.p.75b0e396.woff2") format("woff2");
   font-display: swap;
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nohemiFont;
+  src: url("../media/Nohemi_Bold-s.p.46918fee.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nohemiFont;
+  src: url("../media/Nohemi_ExtraBold-s.p.3e37c178.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 800;
   font-style: normal;
 }
 
@@ -102,21 +126,45 @@
   size-adjust: 24.41%;
 }
 
-.nohemifont_f39f6d7-module__weSQiq__className {
+.nohemifont_336cac11-module__fbQhKq__className {
   font-family: nohemiFont, nohemiFont Fallback;
 }
 
-.nohemifont_f39f6d7-module__weSQiq__variable {
+.nohemifont_336cac11-module__fbQhKq__variable {
   --font-nohemi: "nohemiFont", "nohemiFont Fallback";
 }
 
 
-/* [project]/app/nohemifont_f39f6d7.module.css [app-client] (css) */
+/* [project]/app/nohemifont_336cac11.module.css [app-client] (css) */
 @font-face {
   font-family: nohemiFont;
-  src: url("/_next/static/media/Nohemi_Regular-s.p.75b0e396.woff2") format("woff2");
+  src: url("../media/Nohemi_Thin-s.p.8d43678e.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nohemiFont;
+  src: url("../media/Nohemi_Regular-s.p.75b0e396.woff2") format("woff2");
   font-display: swap;
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nohemiFont;
+  src: url("../media/Nohemi_Bold-s.p.46918fee.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nohemiFont;
+  src: url("../media/Nohemi_ExtraBold-s.p.3e37c178.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 800;
   font-style: normal;
 }
 
@@ -129,11 +177,11 @@
   size-adjust: 24.41%;
 }
 
-.nohemifont_f39f6d7-module__weSQiq__className {
+.nohemifont_336cac11-module__fbQhKq__className {
   font-family: nohemiFont, nohemiFont Fallback;
 }
 
-.nohemifont_f39f6d7-module__weSQiq__variable {
+.nohemifont_336cac11-module__fbQhKq__variable {
   --font-nohemi: "nohemiFont", "nohemiFont Fallback";
 }
 
@@ -477,6 +525,10 @@ img, video {
   z-index: 50;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -540,6 +592,10 @@ img, video {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -554,6 +610,24 @@ img, video {
   justify-self: start;
 }
 
+.justify-self-center {
+  justify-self: center;
+}
+
+.rounded-md {
+  border-radius: .375rem;
+}
+
+.bg-\[\#3498db\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 152 219 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#CEABC1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(206 171 193 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[radial-gradient\(\#e5e7eb_1px\,transparent_1px\)\] {
   background-image: radial-gradient(#e5e7eb 1px, #0000 1px);
 }
@@ -562,9 +636,28 @@ img, video {
   padding: 1.25rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .py-1 {
   padding-top: .25rem;
   padding-bottom: .25rem;
+}
+
+.px-2 {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.px-1 {
+  padding-left: .25rem;
+  padding-right: .25rem;
+}
+
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .pl-14 {
@@ -692,7 +785,91 @@ a:hover {
   font-family: var(--font-dirtyline), sans-serif;
 }
 
+.thin-text {
+  font-family: var(--font-nohemi);
+  font-weight: 100;
+}
+
+.regular-text {
+  font-family: var(--font-nohemi);
+  font-weight: 400;
+}
+
+.bold-text {
+  font-family: var(--font-nohemi);
+  font-weight: 700;
+}
+
+.extra-bold-text {
+  font-family: var(--font-nohemi);
+  font-weight: 800;
+}
+
+.before\:absolute:before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:left-1\/2:before {
+  content: var(--tw-content);
+  left: 50%;
+}
+
+.before\:top-1\/2:before {
+  content: var(--tw-content);
+  top: 50%;
+}
+
+.before\:-z-10:before {
+  content: var(--tw-content);
+  z-index: -10;
+}
+
+.before\:h-20:before {
+  content: var(--tw-content);
+  height: 5rem;
+}
+
+.before\:w-20:before {
+  content: var(--tw-content);
+  width: 5rem;
+}
+
+.before\:-translate-x-1\/2:before {
+  content: var(--tw-content);
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.before\:-translate-y-1\/2:before {
+  content: var(--tw-content);
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.before\:bg-blue-500:before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
+}
+
 @media (width >= 768px) {
+  .md\:pl-20 {
+    padding-left: 5rem;
+  }
+
+  .md\:pl-14 {
+    padding-left: 3.5rem;
+  }
+
+  .md\:pl-40 {
+    padding-left: 10rem;
+  }
+
+  .md\:pl-44 {
+    padding-left: 11rem;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -711,6 +888,10 @@ a:hover {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
+  .lg\:pl-14 {
+    padding-left: 3.5rem;
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -723,4 +904,4 @@ a:hover {
 }
 
 
-/*# sourceMappingURL=app_a78203._.css.map*/
+/*# sourceMappingURL=app_eace7f._.css.map*/

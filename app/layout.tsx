@@ -29,14 +29,31 @@ const dirtylineFont = localFont({
 const nohemiFont = localFont({
     src: [
         {
+            path: "../public/fonts/Nohemi-Thin.woff2",
+            weight: "100",
+            style: "normal",
+        },
+        {
             path: "../public/fonts/Nohemi-Regular.woff2",
             weight: "400",
+            style: "normal",
+        },
+        {
+            path: "../public/fonts/Nohemi-Bold.woff2",
+            weight: "700",
+            style: "normal",
+        },
+        {
+            path: "../public/fonts/Nohemi-ExtraBold.woff2",
+            weight: "800",
             style: "normal",
         },
     ],
     variable: "--font-nohemi",
     display: "swap",
 });
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
