@@ -1,0 +1,27 @@
+/* [project]/app/galgofont_dc702077.module.css [app-client] (css) */
+@font-face {
+  font-family: galgoFont;
+  src: url("../media/GalgoVF-s.p.92ccf12d.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: galgoFont Fallback;
+  src: local(Arial);
+  ascent-override: 188.42%;
+  descent-override: 62.81%;
+  line-gap-override: 0.0%;
+  size-adjust: 39.8%;
+}
+
+.galgofont_dc702077-module__aONxcq__className {
+  font-family: galgoFont, galgoFont Fallback;
+}
+
+.galgofont_dc702077-module__aONxcq__variable {
+  --font-galgo: "galgoFont", "galgoFont Fallback";
+}
+
+/*# sourceMappingURL=app_galgofont_dc702077_module_b52d8e.css.map*/

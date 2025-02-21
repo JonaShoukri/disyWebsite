@@ -1,0 +1,27 @@
+/* [project]/app/nohemifont_f39f6d7.module.css [app-client] (css) */
+@font-face {
+  font-family: nohemiFont;
+  src: url("/_next/static/media/Nohemi_Regular-s.p.75b0e396.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nohemiFont Fallback;
+  src: local(Arial);
+  ascent-override: 303.14%;
+  descent-override: 77.63%;
+  line-gap-override: 30.72%;
+  size-adjust: 24.41%;
+}
+
+.nohemifont_f39f6d7-module__weSQiq__className {
+  font-family: nohemiFont, nohemiFont Fallback;
+}
+
+.nohemifont_f39f6d7-module__weSQiq__variable {
+  --font-nohemi: "nohemiFont", "nohemiFont Fallback";
+}
+
+/*# sourceMappingURL=app_nohemifont_f39f6d7_module_b52d8e.css.map*/

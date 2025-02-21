@@ -10,16 +10,16 @@ export default function ServicesPage() {
                     initial={{ y: -50, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 1 }}
-                    className="col-span-1 justify-self-start text-left pl-14 pt-2 "
+                    className="col-span-1 justify-self-start text-left pl-14 pt-2 font-bold"
                 >
                     <p className="text-3xl md:text-3xl lg:text-6xl text-[#EAEAEC]">
-                        Services
+                        SERVICES
                     </p>
                 </motion.div>
 
                 {/* Right Grid - List */}
                 <div className="col-span-1 flex flex-col space-y-2">
-                    {["consultation", "web & app development", "web mastering / maintenance", "ux/ui design"].map(
+                    {["consultation", "development", "web mastering", "ux/ui design"].map(
                         (service, index) => (
                             <motion.p
                                 key={service}

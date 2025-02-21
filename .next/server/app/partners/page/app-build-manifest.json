@@ -3,10 +3,12 @@
     "/partners/page": [
       "static/chunks/_22d2ba._.js",
       "static/chunks/app_favicon_ico_mjs_53e3fe._.js",
-      "static/chunks/[root of the server]__78f11d._.css",
+      "static/chunks/app_871af8._.css",
       "static/chunks/node_modules_e10e29._.js",
       "static/chunks/app_8bac3a._.js",
       "static/chunks/app_layout_tsx_61af54._.js",
+      "static/chunks/app_partners_page_tsx_495f23._.js",
+      "static/chunks/app_partners_page_tsx_4c40e3._.js",
       "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js",
       "static/chunks/node_modules_next_dist_compiled_107ce8._.js",
       "static/chunks/node_modules_next_dist_client_523921._.js",

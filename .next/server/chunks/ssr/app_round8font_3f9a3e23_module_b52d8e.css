@@ -1,0 +1,27 @@
+/* [project]/app/round8font_3f9a3e23.module.css [app-client] (css) */
+@font-face {
+  font-family: round8Font;
+  src: url("/_next/static/media/round8_four_webfont-s.p.e068aabc.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: round8Font Fallback;
+  src: local(Arial);
+  ascent-override: 148.94%;
+  descent-override: 39.98%;
+  line-gap-override: 0.0%;
+  size-adjust: 61.03%;
+}
+
+.round8font_3f9a3e23-module__Nh4ErG__className {
+  font-family: round8Font, round8Font Fallback;
+}
+
+.round8font_3f9a3e23-module__Nh4ErG__variable {
+  --font-round8: "round8Font", "round8Font Fallback";
+}
+
+/*# sourceMappingURL=app_round8font_3f9a3e23_module_b52d8e.css.map*/

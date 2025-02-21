@@ -1,0 +1,27 @@
+/* [project]/app/humanefont_d7874da9.module.css [app-client] (css) */
+@font-face {
+  font-family: humaneFont;
+  src: url("/_next/static/media/Humane_Regular-s.p.61c43384.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: humaneFont Fallback;
+  src: local(Arial);
+  ascent-override: 212.92%;
+  descent-override: 46.67%;
+  line-gap-override: 29.17%;
+  size-adjust: 34.28%;
+}
+
+.humanefont_d7874da9-module__IhR7HG__className {
+  font-family: humaneFont, humaneFont Fallback;
+}
+
+.humanefont_d7874da9-module__IhR7HG__variable {
+  --font-humane: "humaneFont", "humaneFont Fallback";
+}
+
+/*# sourceMappingURL=app_humanefont_d7874da9_module_b52d8e.css.map*/

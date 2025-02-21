@@ -1,0 +1,27 @@
+/* [project]/app/humainefont_b41fbd9a.module.css [app-client] (css) */
+@font-face {
+  font-family: HumaineFont;
+  src: url("/_next/static/media/Humane_Regular-s.p.61c43384.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HumaineFont Fallback;
+  src: local(Arial);
+  ascent-override: 212.92%;
+  descent-override: 46.67%;
+  line-gap-override: 29.17%;
+  size-adjust: 34.28%;
+}
+
+.humainefont_b41fbd9a-module__KyOera__className {
+  font-family: HumaineFont, HumaineFont Fallback;
+}
+
+.humainefont_b41fbd9a-module__KyOera__variable {
+  --font-humane: "HumaineFont", "HumaineFont Fallback";
+}
+
+/*# sourceMappingURL=app_humainefont_b41fbd9a_module_b52d8e.css.map*/

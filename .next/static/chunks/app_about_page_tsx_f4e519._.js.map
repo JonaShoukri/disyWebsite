@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/jonas/Documents/GitHub/disyWebsite/app/about/page.tsx"],"sourcesContent":["\"use client\"\nimport {motion} from \"framer-motion\";\n\nexport default function AboutPage() {\n    return (\n        <motion.div\n            initial={{y: -50, opacity: 0}}\n            animate={{y: 0, opacity: 1}}\n            transition={{duration: 1, ease: \"easeInOut\", delay: 1}}\n            className=\"fixed inset-0 flex items-center justify-center\"\n        >\n            <h1 className=\"text-8xl text-white\">About</h1>\n        </motion.div>\n    );\n}"],"names":[],"mappings":";;;;AACA;AADA;;;AAGe,SAAS;IACpB,qBACI,6LAAC,6LAAA,CAAA,SAAM,CAAC,GAAG;QACP,SAAS;YAAC,GAAG,CAAC;YAAI,SAAS;QAAC;QAC5B,SAAS;YAAC,GAAG;YAAG,SAAS;QAAC;QAC1B,YAAY;YAAC,UAAU;YAAG,MAAM;YAAa,OAAO;QAAC;QACrD,WAAU;kBAEV,cAAA,6LAAC;YAAG,WAAU;sBAAsB;;;;;;;;;;;AAGhD;KAXwB"}},
+    {"offset": {"line": 51, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

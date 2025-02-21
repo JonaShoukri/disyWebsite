@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import AnimatedBackground from "@/app/components/AnimatedBackground";
 import Nav from "@/app/components/Tabs/Nav";
@@ -27,14 +26,16 @@ const dirtylineFont = localFont({
     display: "swap",
 });
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const nohemiFont = localFont({
+    src: [
+        {
+            path: "../public/fonts/Nohemi-Regular.woff2",
+            weight: "400",
+            style: "normal",
+        },
+    ],
+    variable: "--font-nohemi",
+    display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -49,7 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <body className={`${geistSans.variable} ${geistMono.variable} ${dirtylineFont.variable} antialiased`}>
+    <body className={`${dirtylineFont.variable} ${nohemiFont.variable} antialiased`}>
     {/* Background for all pages */}
     <AnimatedBackground/>
 

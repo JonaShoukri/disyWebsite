@@ -25,6 +25,7 @@ export default function AnimatedLogo() {
             <motion.div
                 animate={adjustPosition ? {x: 150} : {}}
                 transition={{duration: 2, ease: "easeInOut"}}
+                className="animated-logo"
             >
                 <div className="flex">
                     <motion.p

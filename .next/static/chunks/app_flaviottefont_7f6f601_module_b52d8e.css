@@ -1,0 +1,27 @@
+/* [project]/app/flaviottefont_7f6f601.module.css [app-client] (css) */
+@font-face {
+  font-family: flaviotteFont;
+  src: url("../media/Flaviotte-s.p.bc37e999.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: flaviotteFont Fallback;
+  src: local(Arial);
+  ascent-override: 81.68%;
+  descent-override: 24.23%;
+  line-gap-override: 16.26%;
+  size-adjust: 99.04%;
+}
+
+.flaviottefont_7f6f601-module__k3174W__className {
+  font-family: flaviotteFont, flaviotteFont Fallback;
+}
+
+.flaviottefont_7f6f601-module__k3174W__variable {
+  --font-flaviotte: "flaviotteFont", "flaviotteFont Fallback";
+}
+
+/*# sourceMappingURL=app_flaviottefont_7f6f601_module_b52d8e.css.map*/

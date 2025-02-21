@@ -114,7 +114,7 @@ function Services() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
         href: "/services",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "text-l m:text-l lg:text-2xl text-[#CEABC1] absolute left-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pl-5",
+            className: "text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute left-0 top-1/4 transform -translate-y-1/2 flex flex-col items-center group pl-5",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
                     initial: {
@@ -132,7 +132,7 @@ function Services() {
                     },
                     whileHover: {
                         x: 5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -160,7 +160,7 @@ function Services() {
                     },
                     whileHover: {
                         x: 5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -188,7 +188,7 @@ function Services() {
                     },
                     whileHover: {
                         x: 5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -216,7 +216,7 @@ function Services() {
                     },
                     whileHover: {
                         x: 5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -244,7 +244,7 @@ function Services() {
                     },
                     whileHover: {
                         x: 5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -272,7 +272,7 @@ function Services() {
                     },
                     whileHover: {
                         x: 5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -300,7 +300,7 @@ function Services() {
                     },
                     whileHover: {
                         x: 5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -328,7 +328,7 @@ function Services() {
                     },
                     whileHover: {
                         x: 5,
-                        color: '#EAEAEC',
+                        color: '#CEABC1',
                         transition: {
                             duration: 0.1,
                             ease: "easeInOut"
@@ -1071,6 +1071,7 @@ function AnimatedLogo() {
             duration: 2,
             ease: "easeInOut"
         },
+        className: "animated-logo",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex",
@@ -1089,7 +1090,7 @@ function AnimatedLogo() {
                         children: "Di"
                     }, void 0, false, {
                         fileName: "[project]/app/components/AnimatedLogo.tsx",
-                        lineNumber: 30,
+                        lineNumber: 31,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1105,13 +1106,13 @@ function AnimatedLogo() {
                         children: "gital"
                     }, void 0, false, {
                         fileName: "[project]/app/components/AnimatedLogo.tsx",
-                        lineNumber: 41,
+                        lineNumber: 42,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/AnimatedLogo.tsx",
-                lineNumber: 29,
+                lineNumber: 30,
                 columnNumber: 17
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1131,7 +1132,7 @@ function AnimatedLogo() {
                         children: "   Sy"
                     }, void 0, false, {
                         fileName: "[project]/app/components/AnimatedLogo.tsx",
-                        lineNumber: 50,
+                        lineNumber: 51,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1147,13 +1148,13 @@ function AnimatedLogo() {
                         children: "stems"
                     }, void 0, false, {
                         fileName: "[project]/app/components/AnimatedLogo.tsx",
-                        lineNumber: 61,
+                        lineNumber: 62,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/AnimatedLogo.tsx",
-                lineNumber: 49,
+                lineNumber: 50,
                 columnNumber: 17
             }, this)
         ]

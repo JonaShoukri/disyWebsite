@@ -1,0 +1,27 @@
+/* [project]/app/wagonfont_b25bbf79.module.css [app-client] (css) */
+@font-face {
+  font-family: wagonFont;
+  src: url("../media/Wagon_ExtraLight-s.p.dcd0a721.otf") format("opentype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: wagonFont Fallback;
+  src: local(Arial);
+  ascent-override: 69.72%;
+  descent-override: 23.24%;
+  line-gap-override: 9.3%;
+  size-adjust: 107.57%;
+}
+
+.wagonfont_b25bbf79-module__Mbj_Va__className {
+  font-family: wagonFont, wagonFont Fallback;
+}
+
+.wagonfont_b25bbf79-module__Mbj_Va__variable {
+  --font-humane: "wagonFont", "wagonFont Fallback";
+}
+
+/*# sourceMappingURL=app_wagonfont_b25bbf79_module_b52d8e.css.map*/

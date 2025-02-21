@@ -1,0 +1,27 @@
+/* [project]/app/absansfont_15c59994.module.css [app-client] (css) */
+@font-face {
+  font-family: absansFont;
+  src: url("/_next/static/media/Absans_Regular-s.p.2c67bc5f.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: absansFont Fallback;
+  src: local(Arial);
+  ascent-override: 97.63%;
+  descent-override: 31.28%;
+  line-gap-override: 3.79%;
+  size-adjust: 105.5%;
+}
+
+.absansfont_15c59994-module__YaWd3q__className {
+  font-family: absansFont, absansFont Fallback;
+}
+
+.absansfont_15c59994-module__YaWd3q__variable {
+  --font-absans: "absansFont", "absansFont Fallback";
+}
+
+/*# sourceMappingURL=app_absansfont_15c59994_module_b52d8e.css.map*/
