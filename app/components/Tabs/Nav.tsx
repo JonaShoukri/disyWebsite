@@ -6,7 +6,6 @@ import About from './About'
 import French from './French'
 import Partners from "./Parteners";
 import AnimatedLogo from "../AnimatedLogo";
-import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 export default function Nav() {
     const [yOffset, setYOffset] = useState("46vh");
