@@ -28,8 +28,6 @@ export default function Nav() {
         return () => window.removeEventListener("resize", updateYOffset);
     }, []);
 
-    const router = useRouter();
-
     return (
         <div className="relative z-50">
 

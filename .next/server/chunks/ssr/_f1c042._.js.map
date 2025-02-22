@@ -2,7 +2,7 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/jonas/Documents/GitHub/disyWebsite/app/page.tsx"],"sourcesContent":["export default function Home() {\n  return (\n      <div>You do business -- we'll do software</div>\n  );\n}"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBACI,8OAAC;kBAAI;;;;;;AAEX"}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/jonas/Documents/GitHub/disyWebsite/app/page.tsx"],"sourcesContent":["export default function Home() {\n  return (\n      <div >You do business -- we'll do software</div>\n  );\n}"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBACI,8OAAC;kBAAK;;;;;;AAEZ"}},
     {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
     {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
     {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
