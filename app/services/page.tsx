@@ -10,16 +10,25 @@ export default function ServicesPage() {
                     initial={{y: -50, opacity: 0}}
                     animate={{y: 0, opacity: 1}}
                     transition={{duration: 1, ease: "easeInOut", delay: 1}}
-                    className="col-span-1 justify-self-center text-left pt-2 pl-14"
+                    className="col-span-1 justify-self-center text-left pt-2 pl-10"
                 >
-                    <p className="bold-text text-2xl md:text-2xl lg:text-6xl text-[#CEABC1]">
-                        SERVICES
-                    </p>
+                    <div className="flex space-x-1">
+                        {"SERVICES".split("").map((char, index) => (
+                            <motion.p
+                                key={index}
+                                className="extra-bold-text text-2xl md:text-2xl lg:text-6xl text-[#CEABC1] inline-block"
+                                whileHover={{scale: 1.2}}
+                                transition={{type: "spring", stiffness: 300}}
+                            >
+                                {char}
+                            </motion.p>
+                        ))}
+                    </div>
                 </motion.div>
 
                 {/* Right Grid - List */}
                 <div className="col-span-1 flex flex-col space-y-2">
-                {["consultation", "development", "web mastering", "ux/ui design"].map(
+                    {["consultation", "development", "web mastering", "ux/ui design"].map(
                         (service, index) => (
                             <motion.div
                                 key={service}

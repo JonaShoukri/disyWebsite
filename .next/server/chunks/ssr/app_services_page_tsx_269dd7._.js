@@ -33,10 +33,24 @@ function ServicesPage() {
                         ease: "easeInOut",
                         delay: 1
                     },
-                    className: "col-span-1 justify-self-center text-left pt-2 pl-14",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "bold-text text-2xl md:text-2xl lg:text-6xl text-[#CEABC1]",
-                        children: "SERVICES"
+                    className: "col-span-1 justify-self-center text-left pt-2 pl-10",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex space-x-1",
+                        children: "SERVICES".split("").map((char, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
+                                className: "extra-bold-text text-2xl md:text-2xl lg:text-6xl text-[#CEABC1] inline-block",
+                                whileHover: {
+                                    scale: 1.2
+                                },
+                                transition: {
+                                    type: "spring",
+                                    stiffness: 300
+                                },
+                                children: char
+                            }, index, false, {
+                                fileName: "[project]/app/services/page.tsx",
+                                lineNumber: 17,
+                                columnNumber: 29
+                            }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/services/page.tsx",
                         lineNumber: 15,
@@ -76,17 +90,17 @@ function ServicesPage() {
                                 children: service
                             }, void 0, false, {
                                 fileName: "[project]/app/services/page.tsx",
-                                lineNumber: 32,
+                                lineNumber: 41,
                                 columnNumber: 33
                             }, this)
                         }, service, false, {
                             fileName: "[project]/app/services/page.tsx",
-                            lineNumber: 24,
+                            lineNumber: 33,
                             columnNumber: 29
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/services/page.tsx",
-                    lineNumber: 21,
+                    lineNumber: 30,
                     columnNumber: 17
                 }, this)
             ]

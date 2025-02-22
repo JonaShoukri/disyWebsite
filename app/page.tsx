@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-      <div></div>
+      <div>You do business -- we'll do software</div>
   );
 }
