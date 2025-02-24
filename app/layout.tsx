@@ -71,11 +71,12 @@ export default function RootLayout({
     {/* Background for all pages */}
     <AnimatedBackground/>
 
-
-
+    {/* Content */}
     <main>{children}</main>
 
+    {/* Navigation menu and logo */}
     <Nav/>
+
     </body>
     </html>
   );
