@@ -7,7 +7,6 @@ import French from './French'
 import Partners from "./Parteners";
 import AnimatedLogo from "../AnimatedLogo";
 import { usePathname } from "next/navigation";
-import {RevealLinks} from "@/app/services/RevealLinks";
 
 export default function Nav() {
     const [yOffset, setYOffset] = useState("46vh");
