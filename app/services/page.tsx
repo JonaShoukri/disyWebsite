@@ -37,7 +37,7 @@ export default function ServicesPage() {
             style={{zIndex: 0}}
         >
             <section className="w-full h-screen flex flex-col items-center justify-center p-6 sm:p-24" id="menu">
-                <div className="scale-50 m:scale-50 lg:scale-100">
+                <div className="scale-75 md:scale-75 lg:scale-100">
                     <RevealLinks/>
                 </div>
             </section>
