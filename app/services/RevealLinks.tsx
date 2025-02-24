@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export const RevealLinks: React.FC = () => {
     return (
-        <section className="text-[#CEABC1]">
+        <section className="text-[#CEABC1] w-full px-4">
             <motion.div
                 className="transition-transform transform"
                 initial={{x: 100, opacity: 0}}
@@ -52,7 +52,8 @@ const FlipLink: React.FC<FlipLinkProps> = ({children, href}) => {
             initial="initial"
             whileHover="hovered"
             href={href}
-            className="relative block overflow-hidden whitespace-nowrap text-4xl sm:text-7xl md:text-8xl lg:text-9xl funky-text"
+            // className="relative block overflow-hidden whitespace-nowrap text-4xl sm:text-7xl md:text-8xl lg:text-9xl funky-text"
+            className="relative block overflow-hidden whitespace-nowrap text-[10vw] w-full funky-text"
             style={{ lineHeight: 1.1 }}
         >
             <div>
