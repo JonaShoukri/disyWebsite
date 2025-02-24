@@ -36,7 +36,7 @@ export default function ServicesPage() {
             className="absolute top-0 left-0 w-full h-full flex overflow-x-auto"
             style={{zIndex: 0}}
         >
-            <section className="min-w-full h-screen grid grid-rows-[auto,1fr] grid-cols-1 gap-4 sm:p-24" id="menu">
+            <section className="w-full h-screen flex flex-col items-center justify-center p-6 sm:p-24" id="menu">
                 <div className="">
                     <RevealLinks/>
                 </div>
