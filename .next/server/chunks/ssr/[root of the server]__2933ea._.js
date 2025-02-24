@@ -1232,6 +1232,15 @@ function Nav() {
         window.addEventListener("resize", updateYOffset);
         return ()=>window.removeEventListener("resize", updateYOffset);
     }, []);
+    const [scaleValue, setScaleValue] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(1);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const updateScale = ()=>{
+            setScaleValue(window.innerWidth < 1024 ? 0.5 : 1);
+        };
+        updateScale(); // Set initial value
+        window.addEventListener("resize", updateScale);
+        return ()=>window.removeEventListener("resize", updateScale);
+    }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "min-h-screen flex flex-col items-center justify-center",
         children: [
@@ -1240,55 +1249,55 @@ function Nav() {
                     scale: 0.4,
                     y: yOffset
                 } : {
-                    scale: 1,
+                    scale: scaleValue,
                     y: 0
                 },
                 animate: !isRoot ? {
                     scale: 0.4,
                     y: yOffset
                 } : {
-                    scale: 1,
+                    scale: scaleValue,
                     y: 0
                 },
                 transition: {
                     duration: 1.2,
                     ease: "easeInOut"
                 },
-                className: "flex items-center justify-center scale-50 m:scale-50 lg:scale-100 cursor-pointer",
+                className: "flex items-center justify-center cursor-pointer",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$AnimatedLogo$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/components/Tabs/Nav.tsx",
-                    lineNumber: 39,
+                    lineNumber: 50,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/Tabs/Nav.tsx",
-                lineNumber: 33,
+                lineNumber: 44,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Tabs$2f$Services$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/components/Tabs/Nav.tsx",
-                lineNumber: 41,
+                lineNumber: 52,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Tabs$2f$About$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/components/Tabs/Nav.tsx",
-                lineNumber: 42,
+                lineNumber: 53,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Tabs$2f$French$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/components/Tabs/Nav.tsx",
-                lineNumber: 43,
+                lineNumber: 54,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Tabs$2f$Parteners$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/components/Tabs/Nav.tsx",
-                lineNumber: 44,
+                lineNumber: 55,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/Tabs/Nav.tsx",
-        lineNumber: 32,
+        lineNumber: 43,
         columnNumber: 9
     }, this);
 }

@@ -28,20 +28,31 @@ export default function Nav() {
         return () => window.removeEventListener("resize", updateYOffset);
     }, []);
 
+    const [scaleValue, setScaleValue] = useState(1);
+
+    useEffect(() => {
+        const updateScale = () => {
+            setScaleValue(window.innerWidth < 1024 ? 0.5 : 1);
+        };
+        updateScale(); // Set initial value
+        window.addEventListener("resize", updateScale);
+        return () => window.removeEventListener("resize", updateScale);
+    }, []);
+
     return (
         <div className="min-h-screen flex flex-col items-center justify-center">
             <motion.div
-                initial={!isRoot ? { scale: 0.4, y: yOffset } : { scale: 1, y: 0 }}
-                animate={!isRoot ? { scale: 0.4, y: yOffset } : { scale: 1, y: 0 }}
-                transition={{ duration: 1.2, ease: "easeInOut" }}
-                className="flex items-center justify-center scale-50 m:scale-50 lg:scale-100 cursor-pointer"
+                initial={!isRoot ? {scale: 0.4, y: yOffset} : {scale: scaleValue, y: 0}}
+                animate={!isRoot ? {scale: 0.4, y: yOffset} : {scale: scaleValue, y: 0}}
+                transition={{duration: 1.2, ease: "easeInOut"}}
+                className="flex items-center justify-center cursor-pointer"
             >
-                <AnimatedLogo />
+                <AnimatedLogo/>
             </motion.div>
-            <Services />
-            <About />
-            <French />
-            <Partners />
+            <Services/>
+            <About/>
+            <French/>
+            <Partners/>
         </div>
     );
 }
