@@ -28,13 +28,6 @@ h1 {
   font-weight: bold;
 }
 
-a {
-  transition: transform 0.2s ease-in-out;
-}
-
-a:hover {
-  transform: scale(1.2);
-}
 
 .animated-logo {
   font-family: var(--font-dirtyline), sans-serif;
@@ -60,4 +53,9 @@ a:hover {
 .extra-bold-text {
   font-family: var(--font-nohemi);
   font-weight: 800; /* Extra Bold */
+}
+
+.funky-text {
+  font-family: var(--font-dirtyline), sans-serif;
+  font-weight: 400; /* Extra Bold */
 }

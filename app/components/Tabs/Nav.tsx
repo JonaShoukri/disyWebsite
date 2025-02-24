@@ -7,6 +7,8 @@ import French from './French'
 import Partners from "./Parteners";
 import AnimatedLogo from "../AnimatedLogo";
 import { usePathname } from "next/navigation";
+import {RevealLinks} from "@/app/services/RevealLinks";
+
 export default function Nav() {
     const [yOffset, setYOffset] = useState("46vh");
     const pathname = usePathname();
@@ -28,27 +30,19 @@ export default function Nav() {
     }, []);
 
     return (
-        <div className="relative z-50">
-
+        <div className="min-h-screen flex flex-col items-center justify-center">
             <motion.div
-                initial={!isRoot ? {scale: 0.4, y: yOffset} : {scale: 1, y: 0}}
-                animate={!isRoot ? {scale: 0.4, y: yOffset} : {scale: 1, y: 0}}
-                transition={{duration: 1.2, ease: "easeInOut"}}
+                initial={!isRoot ? { scale: 0.4, y: yOffset } : { scale: 1, y: 0 }}
+                animate={!isRoot ? { scale: 0.4, y: yOffset } : { scale: 1, y: 0 }}
+                transition={{ duration: 1.2, ease: "easeInOut" }}
+                className="flex items-center justify-center scale-50 m:scale-50 lg:scale-100 cursor-pointer"
             >
-                <div
-                    className="flex items-center justify-center min-h-screen scale-50 m:scale-50 lg:scale-100 cursor-pointer">
-                    <AnimatedLogo/>
-                </div>
-
+                <AnimatedLogo />
             </motion.div>
-
-            <div>
-                <Services/>
-            </div>
-
-            <About/>
-            <French/>
-            <Partners/>
+            <Services />
+            <About />
+            <French />
+            <Partners />
         </div>
     );
 }
