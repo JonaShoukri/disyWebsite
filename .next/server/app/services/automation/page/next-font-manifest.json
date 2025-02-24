@@ -1,0 +1,16 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/app/services/automation/page": [
+      "static/media/Dirtyline 36daysoftype 2022-s.p.63205cba.woff2",
+      "static/media/Dirtyline 36daysoftype 2022-s.p.adbc548a.woff",
+      "static/media/Dirtyline 36daysoftype 2022-s.p.a158502f.ttf",
+      "static/media/Nohemi_Thin-s.p.8d43678e.woff2",
+      "static/media/Nohemi_Regular-s.p.75b0e396.woff2",
+      "static/media/Nohemi_Bold-s.p.46918fee.woff2",
+      "static/media/Nohemi_ExtraBold-s.p.3e37c178.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

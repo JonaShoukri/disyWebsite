@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export const RevealLinks: React.FC = () => {
     return (
@@ -11,28 +12,36 @@ export const RevealLinks: React.FC = () => {
                 initial={{x: 100, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1.2, ease: "easeOut", delay: 0.1}}>
-                <FlipLink href="#consulting">Consultations</FlipLink>
+                <Link href="/services/consulting">
+                    <FlipLink>Consultations</FlipLink>
+                </Link>
             </motion.div>
             <motion.div
                 className="transition-transform transform"
                 initial={{x: 100, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1.2, ease: "easeOut", delay: 0.3}}>
-                <FlipLink href="#development">Development</FlipLink>
+                <Link href="/services/development">
+                    <FlipLink>Development</FlipLink>
+                </Link>
             </motion.div>
             <motion.div
                 className="transition-transform transform"
                 initial={{x: 100, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1.2, ease: "easeOut", delay: 0.5}}>
-                <FlipLink href="#webmastering">Web-Mastering</FlipLink>
+                <Link href="/services/webmastering">
+                    <FlipLink>Web-Mastering</FlipLink>
+                </Link>
             </motion.div>
             <motion.div
                 className="transition-transform transform"
                 initial={{x: 100, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1.2, ease: "easeOut", delay: 0.7}}>
-                <FlipLink href="#automation">Automation</FlipLink>
+                <Link href="/services/automation">
+                    <FlipLink>Automation</FlipLink>
+                </Link>
             </motion.div>
         </section>
     );
@@ -43,15 +52,13 @@ const STAGGER = 0.025;
 
 interface FlipLinkProps {
     children: string;
-    href: string;
 }
 
-const FlipLink: React.FC<FlipLinkProps> = ({children, href}) => {
+const FlipLink: React.FC<FlipLinkProps> = ({children}) => {
     return (
-        <motion.a
+        <motion.span
             initial="initial"
             whileHover="hovered"
-            href={href}
             // className="relative block overflow-hidden whitespace-nowrap text-4xl sm:text-7xl md:text-8xl lg:text-9xl funky-text"
             className="relative block overflow-hidden whitespace-nowrap text-[10vw] w-full funky-text"
             style={{ lineHeight: 1.1 }}
@@ -94,6 +101,6 @@ const FlipLink: React.FC<FlipLinkProps> = ({children, href}) => {
                     </motion.span>
                 ))}
             </div>
-        </motion.a>
+        </motion.span>
     );
 };
