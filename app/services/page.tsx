@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { RevealLinks } from "./RevealLinks";
+import {motion} from "framer-motion"
 
 export default function ServicesPage() {
 

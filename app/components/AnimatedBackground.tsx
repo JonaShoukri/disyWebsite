@@ -2,8 +2,10 @@
 
 import { useEffect, useState } from "react";
 import { motion, useMotionValue, useTransform } from "framer-motion";
+import { usePathname } from "next/navigation";
 
 export default function AnimatedBackground() {
+    const pathname = usePathname();
     const x = useMotionValue(0);
     const y = useMotionValue(0);
     const [isVisible, setIsVisible] = useState(false); // State to control the fade-in effect
@@ -11,6 +13,7 @@ export default function AnimatedBackground() {
     const rotateY = useTransform(x, [-1, 1], [-10, 10]);
 
     useEffect(() => {
+
         const handleMouseMove = (e: MouseEvent) => {
             const { innerWidth, innerHeight } = window;
             const offsetX = (e.clientX / innerWidth) * 2 - 1;
@@ -25,9 +28,11 @@ export default function AnimatedBackground() {
 
     // Handle fade-in and zoom-out on initial load
     useEffect(() => {
+        const delay = pathname === "/" ? 2000 : 0; // 2-second delay before animation starts
+
         const timeout = setTimeout(() => {
             setIsVisible(true);
-        }, 2000); // 2-second delay before animation starts
+        }, delay);
 
         return () => clearTimeout(timeout);
     }, []);

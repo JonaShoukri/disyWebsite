@@ -1,9 +1,13 @@
 "use client"
 import {motion} from "framer-motion";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 
 export default function About(){
+    const pathname = usePathname();
+    const delay = pathname === "/" ? 4.8 : 0.8;
+
     return (
         <Link href="/about">
             <div
@@ -11,7 +15,7 @@ export default function About(){
                 <motion.span
                     initial={{x: -50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
-                    transition={{duration: 1, ease: "easeInOut", delay: 4.8}}
+                    transition={{duration: 1, ease: "easeInOut", delay: delay}}
                     whileHover={{x: 5, color: '#CEABC1', transition: {duration: 0.1, ease: "easeInOut"}}}
                 >
                     a
@@ -19,7 +23,7 @@ export default function About(){
                 <motion.span
                     initial={{x: -50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
-                    transition={{duration: 1, ease: "easeInOut", delay: 4.9}}
+                    transition={{duration: 1, ease: "easeInOut", delay: delay + 0.1}}
                     whileHover={{x: 5, color: '#CEABC1', transition: {duration: 0.1, ease: "easeInOut"}}}
                 >
                     b
@@ -27,7 +31,7 @@ export default function About(){
                 <motion.span
                     initial={{x: -50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
-                    transition={{duration: 1, ease: "easeInOut", delay: 5}}
+                    transition={{duration: 1, ease: "easeInOut", delay: delay + 0.2}}
                     whileHover={{x: 5, color: '#CEABC1', transition: {duration: 0.1, ease: "easeInOut"}}}
                 >
                     o
@@ -35,7 +39,7 @@ export default function About(){
                 <motion.span
                     initial={{x: -50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
-                    transition={{duration: 1, ease: "easeInOut", delay: 5.1}}
+                    transition={{duration: 1, ease: "easeInOut", delay: delay + 0.3}}
                     whileHover={{x: 5, color: '#CEABC1', transition: {duration: 0.1, ease: "easeInOut"}}}
                 >
                     u
@@ -43,7 +47,7 @@ export default function About(){
                 <motion.span
                     initial={{x: -50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
-                    transition={{duration: 1, ease: "easeInOut", delay: 5.2}}
+                    transition={{duration: 1, ease: "easeInOut", delay: delay + 0.4}}
                     whileHover={{x: 5, color: '#CEABC1', transition: {duration: 0.1, ease: "easeInOut"}}}
                 >
                     t

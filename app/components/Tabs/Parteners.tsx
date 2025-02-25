@@ -1,8 +1,12 @@
 "use client"
 import {motion} from "framer-motion";
 import Link from "next/link";
+import {usePathname} from "next/navigation";
 
 export default function Partners(){
+    const pathname = usePathname();
+    const delay = pathname === "/" ? 4 : 0;
+
     return (
         <Link href="/partners">
             <div
@@ -10,7 +14,7 @@ export default function Partners(){
                 <motion.span
                     initial={{x: 50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
-                    transition={{duration: 1, ease: "easeInOut", delay: 4.7}}
+                    transition={{duration: 1, ease: "easeInOut", delay: delay + 0.7}}
                     whileHover={{x: -5, color: '#CEABC1', transition: {duration: 0.1, ease: "easeInOut"}}}
                 >
                     p
@@ -18,7 +22,7 @@ export default function Partners(){
                 <motion.span
                     initial={{x: 50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
-                    transition={{duration: 1, ease: "easeInOut", delay: 4.6}}
+                    transition={{duration: 1, ease: "easeInOut", delay: delay + 0.6}}
                     whileHover={{x: -5, color: '#CEABC1', transition: {duration: 0.1, ease: "easeInOut"}}}
                 >
                     a
@@ -26,7 +30,7 @@ export default function Partners(){
                 <motion.span
                     initial={{x: 50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
-                    transition={{duration: 1, ease: "easeInOut", delay: 4.5}}
+                    transition={{duration: 1, ease: "easeInOut", delay: delay + 0.5}}
                     whileHover={{x: -5, color: '#CEABC1', transition: {duration: 0.1, ease: "easeInOut"}}}
                 >
                     r
@@ -34,7 +38,7 @@ export default function Partners(){
                 <motion.span
                     initial={{x: 50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
-                    transition={{duration: 1, ease: "easeInOut", delay: 4.4}}
+                    transition={{duration: 1, ease: "easeInOut", delay: delay + 0.4}}
                     whileHover={{x: -5, color: '#CEABC1', transition: {duration: 0.1, ease: "easeInOut"}}}
                 >
                     t
@@ -42,7 +46,7 @@ export default function Partners(){
                 <motion.span
                     initial={{x: 50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
-                    transition={{duration: 1, ease: "easeInOut", delay: 4.3}}
+                    transition={{duration: 1, ease: "easeInOut", delay: delay + 0.3}}
                     whileHover={{x: -5, color: '#CEABC1', transition: {duration: 0.1, ease: "easeInOut"}}}
                 >
                     n
@@ -50,7 +54,7 @@ export default function Partners(){
                 <motion.span
                     initial={{x: 50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
-                    transition={{duration: 1, ease: "easeInOut", delay: 4.2}}
+                    transition={{duration: 1, ease: "easeInOut", delay: delay + 0.2}}
                     whileHover={{x: -5, color: '#CEABC1', transition: {duration: 0.1, ease: "easeInOut"}}}
                 >
                     e
@@ -58,7 +62,7 @@ export default function Partners(){
                 <motion.span
                     initial={{x: 50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
-                    transition={{duration: 1, ease: "easeInOut", delay: 4.1}}
+                    transition={{duration: 1, ease: "easeInOut", delay: delay + 0.1}}
                     whileHover={{x: -5, color: '#CEABC1', transition: {duration: 0.1, ease: "easeInOut"}}}
                 >
                     r
@@ -66,7 +70,7 @@ export default function Partners(){
                 <motion.span
                     initial={{x: 50, opacity: 0}}
                     animate={{x: 0, opacity: 1}}
-                    transition={{duration: 1, ease: "easeInOut", delay: 4}}
+                    transition={{duration: 1, ease: "easeInOut", delay: delay}}
                     whileHover={{x: -5, color: '#CEABC1', transition: {duration: 0.1, ease: "easeInOut"}}}
                 >
                     s

@@ -90,7 +90,7 @@ function AnimatedBackground() {
         }
     }, void 0, false, {
         fileName: "[project]/app/components/AnimatedBackground.tsx",
-        lineNumber: 36,
+        lineNumber: 37,
         columnNumber: 5
     }, this);
 }
