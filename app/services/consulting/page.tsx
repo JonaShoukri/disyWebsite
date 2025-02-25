@@ -3,8 +3,6 @@ import {motion} from "framer-motion";
 import React, {useState} from "react";
 
 export default function AboutPage() {
-
-    const [position, setPosition] = useState({ x: 0, y: 0 });
     return(
         <div className="container mx-auto p-8">
             <motion.h1
