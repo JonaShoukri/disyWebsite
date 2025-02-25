@@ -35,7 +35,7 @@ export default function AnimatedBackground() {
         }, delay);
 
         return () => clearTimeout(timeout);
-    }, []);
+    }, [pathname]);
 
     return (
     <motion.div

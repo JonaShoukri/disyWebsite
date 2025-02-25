@@ -9,19 +9,11 @@ __turbopack_esm__({
     "default": (()=>AboutPage)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
-;
-var _s = __turbopack_refresh__.signature();
 "use client";
 ;
 ;
 function AboutPage() {
-    _s();
-    const [position, setPosition] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
-        x: 0,
-        y: 0
-    });
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "container mx-auto p-8",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
@@ -45,23 +37,22 @@ function AboutPage() {
                     children: "No-Strings"
                 }, void 0, false, {
                     fileName: "[project]/app/services/consulting/page.tsx",
-                    lineNumber: 15,
+                    lineNumber: 12,
                     columnNumber: 26
                 }, this),
                 " solution to getting the answers you need"
             ]
         }, void 0, true, {
             fileName: "[project]/app/services/consulting/page.tsx",
-            lineNumber: 10,
+            lineNumber: 7,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/services/consulting/page.tsx",
-        lineNumber: 9,
+        lineNumber: 6,
         columnNumber: 9
     }, this);
 }
-_s(AboutPage, "0qniUPJTLf8/oonUDLg0GM42ieg=");
 _c = AboutPage;
 var _c;
 __turbopack_refresh__.register(_c, "AboutPage");
