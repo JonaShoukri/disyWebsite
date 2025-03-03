@@ -591,6 +591,10 @@ img, video {
   bottom: 7rem;
 }
 
+.bottom-24 {
+  bottom: 6rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
