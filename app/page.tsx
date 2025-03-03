@@ -39,7 +39,7 @@ export default function Home() {
               </motion.div>
           </div>
           <div className="h-screen w-screen bg-[#EAEAEC] snap-always snap-start text-[#0A0A0A]">
-              <div className="flex flex-col w-screen h-screen px-20 pt-40">
+              <div className="flex flex-col w-screen h-screen px-20 pt-28 container mx-auto">
                   <Title className="scale-75 hidden sm:block md:scale-75 lg:scale-100" />
 
                   <div className="md:flex md:flex-col md:items-center md:justify-center md:w-full">
@@ -55,7 +55,7 @@ export default function Home() {
 
                       <Link href="/">
                           <motion.div
-                              className="text-[#0A0A0A] w-1/2 underline decoration-[#CEABC1] md:w-full md:text-center"
+                              className="text-[#0A0A0A] pb-10 underline decoration-[#CEABC1] lg:pt-20 lg:w-1/2 lg:text-left lg:ml-auto md:w-full md:text-center whitespace-nowrap"
                               initial={{y: 0}}
                               whileHover={{
                                   y: -3,
@@ -65,6 +65,7 @@ export default function Home() {
                           >
                               Book a Consultation
                           </motion.div>
+
                       </Link>
                   </div>
               </div>

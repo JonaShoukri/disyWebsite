@@ -730,6 +730,10 @@ img, video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -798,6 +802,11 @@ img, video {
   padding-right: 1rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -818,12 +827,16 @@ img, video {
   padding-top: 2.5rem;
 }
 
+.pt-40 {
+  padding-top: 10rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
 
-.pt-40 {
-  padding-top: 10rem;
+.pt-28 {
+  padding-top: 7rem;
 }
 
 .text-left {
