@@ -314,7 +314,7 @@ function Home() {
                     className: "flex flex-col w-screen h-screen px-20 pt-40",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Title$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            className: "md:scale-50 lg:scale-100"
+                            className: "scale-75 hidden sm:block md:scale-75 lg:scale-100"
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 43,
