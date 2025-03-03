@@ -43,7 +43,7 @@ export default function Home() {
                   <Title className="scale-75 hidden sm:block md:scale-75 lg:scale-100" />
 
                   <div className="md:flex md:flex-col md:items-center md:justify-center md:w-full">
-                      <p className="text-[#0A0A0A] pt-20 pb-10 lg:w-1/2 lg:text-left lg:ml-auto md:w-full md:text-center">
+                      <p className="text-[#0A0A0A] pb-10 lg:pt-20 lg:w-1/2 lg:text-left lg:ml-auto md:w-full md:text-center">
                           DiSy is a digital development and consultation firm focused on aiding small to medium-sized
                           businesses. Our dedicated team offers end-to-end services, including custom web, app, and
                           software development, consultations, web mastering, maintenance, and design tailored to your
@@ -55,7 +55,7 @@ export default function Home() {
 
                       <Link href="/">
                           <motion.div
-                              className="text-[#0A0A0A] w-1/2 underline decoration-[#CEABC1] md:w-full"
+                              className="text-[#0A0A0A] w-1/2 underline decoration-[#CEABC1] md:w-full md:text-center"
                               initial={{y: 0}}
                               whileHover={{
                                   y: -3,
