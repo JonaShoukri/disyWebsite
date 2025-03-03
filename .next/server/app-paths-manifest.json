@@ -3,5 +3,6 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/services/page": "app/services/page.js",
   "/services/consulting/page": "app/services/consulting/page.js",
-  "/services/consulting/appointment/page": "app/services/consulting/appointment/page.js"
+  "/services/consulting/appointment/page": "app/services/consulting/appointment/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }

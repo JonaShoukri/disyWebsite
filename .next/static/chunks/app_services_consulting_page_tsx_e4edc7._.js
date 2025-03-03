@@ -9,205 +9,108 @@ __turbopack_esm__({
     "default": (()=>AboutPage)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 "use client";
 ;
+;
+;
 function AboutPage() {
+    const textLines = [
+        "At DiSy, we believe in a personalized approach to consulting. Every project begins with a free,\n" + "                no-obligation consultation—something we offer to all our clients, whether we are developing your project\n" + "                or simply providing expert guidance. This initial consultation is your opportunity to ask any technical\n" + "                or non-technical questions you may have, as well as for us to gain a deep understanding of your\n" + "                business, its current state, and its future goals.",
+        "If we are consulting, this session helps us understand where your company is now and where you want it\n" + "                to be. From there, subsequent consultations will focus on providing strategic advice and actionable\n" + "                steps to get you there.",
+        "If we are developing your project, this initial consultation is crucial for defining the scope, ensuring\n" + "                we are on the same page, and discussing key elements such as budget, design, and functionality.\n" + "                Following this, our second consultation will be where we present a detailed plan for execution—including\n" + "                the tech stack, development timeline, iteration cycles, and post-launch maintenance. All subsequent\n" + "                consultations will serve as progress updates as we move toward delivering your solution.",
+        "For those who only need expert guidance, we offer a flexible ‘time bank’ of consultation hours, allowing\n" + "                you to access our expertise as needed. Whatever your needs, we are here to provide the knowledge,\n" + "                strategy, and technical insight to help your business thrive."
+    ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex w-screen h-screen px-14 pt-10",
+        className: "flex w-screen h-screen",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-1/3 p-4"
+                className: "w-1/2 p-4 px-28 pt-28",
+                children: textLines.map((line, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        initial: {
+                            x: "-120%"
+                        },
+                        animate: {
+                            x: "0%"
+                        },
+                        transition: {
+                            delay: index * 0.2,
+                            duration: 1.2,
+                            ease: "easeInOut"
+                        },
+                        children: [
+                            line,
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                fileName: "[project]/app/services/consulting/page.tsx",
+                                lineNumber: 35,
+                                columnNumber: 31
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                fileName: "[project]/app/services/consulting/page.tsx",
+                                lineNumber: 35,
+                                columnNumber: 36
+                            }, this)
+                        ]
+                    }, index, true, {
+                        fileName: "[project]/app/services/consulting/page.tsx",
+                        lineNumber: 29,
+                        columnNumber: 21
+                    }, this))
             }, void 0, false, {
                 fileName: "[project]/app/services/consulting/page.tsx",
-                lineNumber: 6,
+                lineNumber: 27,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-1/3 p-4",
-                children: [
-                    "At DiSy, we believe in a personalized approach to consulting. Every project begins with a free, no-obligation consultation—something we offer to all our clients, whether we are developing your project or simply providing expert guidance. This initial consultation is your opportunity to ask any technical or non-technical questions you may have, as well as for us to gain a deep understanding of your business, its current state, and its future goals.",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                        fileName: "[project]/app/services/consulting/page.tsx",
-                        lineNumber: 13,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                        fileName: "[project]/app/services/consulting/page.tsx",
-                        lineNumber: 13,
-                        columnNumber: 22
-                    }, this),
-                    "If we are consulting, this session helps us understand where your company is now and where you want it to be. From there, subsequent consultations will focus on providing strategic advice and actionable steps to get you there.",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                        fileName: "[project]/app/services/consulting/page.tsx",
-                        lineNumber: 17,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                        fileName: "[project]/app/services/consulting/page.tsx",
-                        lineNumber: 17,
-                        columnNumber: 22
-                    }, this),
-                    "If we are developing your project, this initial consultation is crucial for defining the scope, ensuring we are on the same page, and discussing key elements such as budget, design, and functionality. Following this, our second consultation will be where we present a detailed plan for execution—including the tech stack, development timeline, iteration cycles, and post-launch maintenance. All subsequent consultations will serve as progress updates as we move toward delivering your solution.",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                        fileName: "[project]/app/services/consulting/page.tsx",
-                        lineNumber: 23,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                        fileName: "[project]/app/services/consulting/page.tsx",
-                        lineNumber: 23,
-                        columnNumber: 22
-                    }, this),
-                    "For those who only need expert guidance, we offer a flexible ‘time bank’ of consultation hours, allowing you to access our expertise as needed. Whatever your needs, we are here to provide the knowledge, strategy, and technical insight to help your business thrive."
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/services/consulting/page.tsx",
-                lineNumber: 7,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-1/3 p-4",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    children: [
-                        "MILANO",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 30,
-                            columnNumber: 27
-                        }, this),
-                        "Viale Caldara, 11",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 31,
-                            columnNumber: 38
-                        }, this),
-                        "20122",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 32,
-                            columnNumber: 26
-                        }, this),
-                        "milano@diorama.eu",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 33,
-                            columnNumber: 38
-                        }, this),
-                        "+39 02 36745 68",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 34,
-                            columnNumber: 36
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 35,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 35,
-                            columnNumber: 26
-                        }, this),
-                        "PARIS",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 36,
-                            columnNumber: 26
-                        }, this),
-                        "37 Rue Vital",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 37,
-                            columnNumber: 33
-                        }, this),
-                        "75016",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 38,
-                            columnNumber: 26
-                        }, this),
-                        "paris@diorama.eu",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 39,
-                            columnNumber: 37
-                        }, this),
-                        "+33 6 78 84 84 90",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 40,
-                            columnNumber: 38
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 41,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 41,
-                            columnNumber: 26
-                        }, this),
-                        "ADMINISTRATION",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 42,
-                            columnNumber: 35
-                        }, this),
-                        "accounts@diorama.eu",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 43,
-                            columnNumber: 40
-                        }, this),
-                        "Diorama SRL",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 44,
-                            columnNumber: 32
-                        }, this),
-                        "P. IVA - 09464930966",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                            fileName: "[project]/app/services/consulting/page.tsx",
-                            lineNumber: 45,
-                            columnNumber: 41
-                        }, this),
-                        "C.Sociale - 10.000 iv",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                initial: {
+                    y: "40%"
+                },
+                animate: {
+                    y: "0%"
+                },
+                transition: {
+                    duration: 2,
+                    ease: "easeInOut"
+                },
+                className: "w-1/2 p-4 ",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    href: "/services/consulting/appointment",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex items-center justify-center h-full",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
+                            whileHover: {
+                                y: -10
+                            },
+                            className: "extra-bold-text text-[4vw] text-[#EAEAEC] pb-24 pr-10 absolute bottom-0 hover:text-[#CEABC1]",
+                            children: "BOOK YOUR FREE CONSULTATION TODAY"
+                        }, void 0, false, {
                             fileName: "[project]/app/services/consulting/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 42
+                            columnNumber: 25
                         }, this)
-                    ]
-                }, void 0, true, {
+                    }, void 0, false, {
+                        fileName: "[project]/app/services/consulting/page.tsx",
+                        lineNumber: 45,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
                     fileName: "[project]/app/services/consulting/page.tsx",
-                    lineNumber: 29,
+                    lineNumber: 44,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/services/consulting/page.tsx",
-                lineNumber: 28,
+                lineNumber: 39,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/services/consulting/page.tsx",
-        lineNumber: 5,
+        lineNumber: 26,
         columnNumber: 9
     }, this);
-} //
- // <div className="container mx-auto p-8">
- //     {/*<motion.div*/}
- //     {/*    initial={{y: -200, opacity: 0}}*/}
- //     {/*    animate={{y: 0, opacity: 1}}*/}
- //     {/*    transition={{duration: 0.7, ease: "easeInOut"}}*/}
- //     {/*    className="left-0 w-full extra-bold-text  text-[#EAEAEC] xs:text-xl  sm:text-xl md:text-5xl lg:text-7xl w-2/3 pt-10 md:">*/}
- //     {/*    <DrawCircleText/>*/}
- //     {/*</motion.div>*/}
- //
- //
- // </div>
+}
 _c = AboutPage;
 var _c;
 __turbopack_refresh__.register(_c, "AboutPage");
