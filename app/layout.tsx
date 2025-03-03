@@ -72,9 +72,7 @@ export default function RootLayout({
     {/* Content */}
 
     <main>
-        <div className="container mx-auto px-8">
-            {children}
-        </div>
+        {children}
     </main>
 
     {/* Navigation menu and logo */}

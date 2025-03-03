@@ -59,7 +59,7 @@ const FlipLink: React.FC<FlipLinkProps> = ({children}) => {
         <motion.div
             initial="initial"
             whileHover="hovered"
-            className="relative block overflow-hidden whitespace-nowrap text-[10vw] w-full funky-text"
+            className="relative block overflow-hidden whitespace-nowrap w-full text-[clamp(2rem,10vw,12rem)] leading-[clamp(1.1,5vw,1.5)] funky-text"
             style={{ lineHeight: 1.1 }}
         >
             <div>

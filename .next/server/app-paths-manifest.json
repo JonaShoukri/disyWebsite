@@ -2,5 +2,6 @@
   "/page": "app/page.js",
   "/services/page": "app/services/page.js",
   "/services/consulting/page": "app/services/consulting/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/about/page": "app/about/page.js"
 }

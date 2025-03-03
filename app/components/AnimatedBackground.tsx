@@ -38,25 +38,28 @@ export default function AnimatedBackground() {
     }, [pathname]);
 
     return (
-    <motion.div
-        className="absolute h-full w-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] text-[#EAEAEC]"
-        style={{
-            rotateX,
-            rotateY,
-            background: "radial-gradient(#EAEAEC 1px, transparent 1px)",
-            backgroundSize: "64px 64px"
-        }}
-        initial={{opacity: 0, scale: 1.2}} // Initial state for fade-in and zoom-out
-            animate={{
-                opacity: isVisible ? 1 : 0, // Fades in after component mounts
-                scale: isVisible ? 1.0 : 1.2,  // Zoom-out effect initially
-            }}
-            exit={{opacity: 0}} // Optional exit animation when component leaves
-            transition={{
-                type: "tween", // Switch to tween for duration control
-                duration: 3,   // 2-second duration for fade-in and zoom-out
-                ease: "easeOut", // Smooth easing
-            }}
-        />
+        <div className="fixed top-0 -z-10 h-full w-full">
+            <motion.div
+                className="absolute h-full w-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] text-[#EAEAEC]"
+                style={{
+                    rotateX,
+                    rotateY,
+                    background: "radial-gradient(#EAEAEC 1px, transparent 1px)",
+                    backgroundSize: "64px 64px"
+                }}
+                initial={{opacity: 0, scale: 1.2}} // Initial state for fade-in and zoom-out
+                animate={{
+                    opacity: isVisible ? 1 : 0, // Fades in after component mounts
+                    scale: isVisible ? 1.0 : 1.2,  // Zoom-out effect initially
+                }}
+                exit={{opacity: 0}} // Optional exit animation when component leaves
+                transition={{
+                    type: "tween", // Switch to tween for duration control
+                    duration: 3,   // 2-second duration for fade-in and zoom-out
+                    ease: "easeOut", // Smooth easing
+                }}
+            />
+        </div>
+
     );
 }

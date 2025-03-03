@@ -30,16 +30,16 @@ export default function Nav() {
 
     return (
         <div className="min-h-screen flex flex-col items-center justify-center">
-            <motion.div
-                initial={!isRoot ? { scale: 0.4, y: yOffset } : { scale: 1, y: 0 }}
-                animate={!isRoot ? { scale: 0.4, y: yOffset } : { scale: 1, y: 0 }}
-                transition={{ duration: 1.2, ease: "easeInOut" }}
+            {/*<motion.div*/}
+            {/*    initial={!isRoot ? { scale: 0.4, y: yOffset } : { scale: 1, y: 0 }}*/}
+            {/*    animate={!isRoot ? { scale: 0.4, y: yOffset } : { scale: 1, y: 0 }}*/}
+            {/*    transition={{ duration: 1.2, ease: "easeInOut" }}*/}
 
-            >
-                <div className="flex items-center justify-center scale-50 m:scale-50 lg:scale-100 cursor-pointer">
-                    <AnimatedLogo />
-                </div>
-            </motion.div>
+            {/*>*/}
+            {/*    <div className="flex items-center justify-center scale-50 m:scale-50 lg:scale-100 cursor-pointer">*/}
+            {/*        <AnimatedLogo />*/}
+            {/*    </div>*/}
+            {/*</motion.div>*/}
             <Services />
             <About />
             <French />
