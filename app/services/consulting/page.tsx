@@ -1,6 +1,4 @@
 "use client"
-import {motion} from "framer-motion";
-import {DrawCircleText} from "./title.tsx";
 
 export default function AboutPage() {
     return (

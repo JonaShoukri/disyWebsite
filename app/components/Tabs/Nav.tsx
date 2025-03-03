@@ -1,11 +1,9 @@
 'use client'
-import {motion} from "framer-motion";
 import { useState, useEffect } from "react";
 import Services from './Services'
 import About from './About'
 import French from './French'
 import Partners from "./Parteners";
-import AnimatedLogo from "../AnimatedLogo";
 import { usePathname } from "next/navigation";
 
 export default function Nav() {
