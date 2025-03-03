@@ -60,11 +60,11 @@ export default function Home() {
                       </div>
                   </div>
                   <motion.div
-                      initial={{y: "100%"}} // Starts hidden below
-                      whileInView={{y: "0%"}} // Moves into view
+                      initial={{opacity: "0%"}} // Starts hidden below
+                      whileInView={{opacity: "100%"}} // Moves into view
                       transition={{duration: 1.2, ease: "easeOut", delay: 0.3}}
                       viewport={{once: true}}
-                      className="bg-[#CEABC1] w-full absolute bottom-[env(safe-area-inset-bottom)] md:bottom-0 extra-bold-text text-[#EAEAEC] text-center text-[2vw] p-4"
+                      className="bg-[#CEABC1] w-full absolute bottom-20 md:bottom-0 extra-bold-text text-[#EAEAEC] text-center text-[2vw] p-4"
                   >
                       <Link href="/services/consulting/appointment">
                           BOOK A CONSULTATION
