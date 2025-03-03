@@ -202,7 +202,7 @@ function Title({ className = "" }) {
                         }, void 0, false, {
                             fileName: "[project]/app/components/Title.tsx",
                             lineNumber: 24,
-                            columnNumber: 30
+                            columnNumber: 35
                         }, this)
                     ]
                 }, void 0, true, {

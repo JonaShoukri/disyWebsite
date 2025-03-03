@@ -21,7 +21,7 @@ export default function Title({ className = "" }) {
                            transition={{duration: 1.2, ease: "easeOut", delay: 0.5}}
                            viewport={{once: true}}
                 >
-                    WE'LL DO <span className="funky-text text-[#CEABC1]">Software</span>
+                    WE&apos;LL DO <span className="funky-text text-[#CEABC1]">Software</span>
                 </motion.h1>
             </div>
         </div>

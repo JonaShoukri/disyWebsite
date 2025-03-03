@@ -48,7 +48,7 @@ export default function Home() {
                           businesses. Our dedicated team offers end-to-end services, including custom web, app, and
                           software development, consultations, web mastering, maintenance, and design tailored to your
                           business needs and ethos. Whether you want a dedicated team to take care of all your digital
-                          needs or simply need expert advice on how to go about it on your own, we've got you covered.
+                          needs or simply need expert advice on how to go about it on your own, we&apos;ve got you covered.
                           Book your free, no-strings-attached consultation today and let us help you take your business
                           to the next level.
                       </p>
