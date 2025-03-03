@@ -64,7 +64,7 @@ export default function Home() {
                         whileInView={{y: "0%"}} // Moves into view
                         transition={{duration: 1.2, ease: "easeOut", delay: 0.3}}
                         viewport={{once: true}}
-                        className="bg-[#CEABC1] w-full absolute bottom-16 md:bottom-0 extra-bold-text text-[#EAEAEC] text-center text-[2vw] p-4">
+                        className="bg-[#CEABC1] w-full absolute bottom-20 md:bottom-0 extra-bold-text text-[#EAEAEC] text-center text-[2vw] p-4">
                       <Link href="/services/consulting/appointment">
                           BOOK A CONSULTATION
                       </Link>
