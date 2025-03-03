@@ -26,7 +26,7 @@ export default function Home() {
     }, []);
 
   return (
-      <div className="h-screen w-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
+      <div className="h-screen w-screen overflow-x-hidden snap-y snap-mandatory scroll-smooth">
           <div className="h-screen min-h-screen flex flex-col items-center justify-center snap-always snap-start">
               <motion.div
                   initial={!isRoot ? {scale: 0.4, y: yOffset} : {scale: 1, y: 0}}

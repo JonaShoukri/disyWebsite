@@ -436,10 +436,6 @@ img, video {
   min-height: 100vh;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-1\/3 {
   width: 33.3333%;
 }
@@ -542,10 +538,6 @@ img, video {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
 .gap-4 {
   gap: 1rem;
 }
@@ -558,8 +550,12 @@ img, video {
   overflow-x: auto;
 }
 
-.overflow-y-auto {
-  overflow-y: auto;
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
 }
 
 .scroll-smooth {
@@ -614,11 +610,6 @@ img, video {
   padding-right: 1rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -637,14 +628,6 @@ img, video {
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pt-40 {
-  padding-top: 10rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .pt-28 {
