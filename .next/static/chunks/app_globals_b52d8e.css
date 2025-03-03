@@ -395,6 +395,10 @@ img, video {
   bottom: 5rem;
 }
 
+.bottom-\[env\(safe-area-inset-bottom\)\] {
+  bottom: env(safe-area-inset-bottom);
+}
+
 .-z-10 {
   z-index: -10;
 }

@@ -390,13 +390,13 @@ function Home() {
                             viewport: {
                                 once: true
                             },
-                            className: "bg-[#CEABC1] w-full absolute bottom-20 md:bottom-0 extra-bold-text text-[#EAEAEC] text-center text-[2vw] p-4",
+                            className: "bg-[#CEABC1] w-full absolute bottom-[env(safe-area-inset-bottom)] md:bottom-0 extra-bold-text text-[#EAEAEC] text-center text-[2vw] p-4",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/services/consulting/appointment",
                                 children: "BOOK A CONSULTATION"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 68,
+                                lineNumber: 69,
                                 columnNumber: 23
                             }, this)
                         }, void 0, false, {
