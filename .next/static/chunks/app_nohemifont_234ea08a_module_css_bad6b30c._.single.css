@@ -1,0 +1,51 @@
+/* [project]/app/nohemifont_234ea08a.module.css [app-client] (css) */
+@font-face {
+  font-family: nohemiFont;
+  src: url("../media/Nohemi_Thin-s.p.ea63b9a6.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nohemiFont;
+  src: url("../media/Nohemi_Regular-s.p.fa7c2a0b.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nohemiFont;
+  src: url("../media/Nohemi_Bold-s.p.f16559cb.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nohemiFont;
+  src: url("../media/Nohemi_ExtraBold-s.p.447729dd.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nohemiFont Fallback;
+  src: local(Arial);
+  ascent-override: 303.14%;
+  descent-override: 77.63%;
+  line-gap-override: 30.72%;
+  size-adjust: 24.41%;
+}
+
+.nohemifont_234ea08a-module__ZiYFDG__className {
+  font-family: nohemiFont, nohemiFont Fallback;
+}
+
+.nohemifont_234ea08a-module__ZiYFDG__variable {
+  --font-nohemi: "nohemiFont", "nohemiFont Fallback";
+}
+
+/*# sourceMappingURL=app_nohemifont_234ea08a_module_css_bad6b30c._.single.css.map*/

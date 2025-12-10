@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/humanefont_d7874da9.module.css"],"sourcesContent":["@font-face {\n    font-family: 'humaneFont';\n    src: url('@vercel/turbopack-next/internal/font/local/font?{%22path%22:%22../public/fonts/Humane-Regular.woff2%22,%22preload%22:true,%22has_size_adjust%22:true}') format('woff2');\n    font-display: swap;\n    font-weight: 400;font-style: normal;\n}\n\n@font-face {\n    font-family: 'humaneFont Fallback';\n    src: local(\"Arial\");\n    ascent-override: 212.92%;\ndescent-override: 46.67%;\nline-gap-override: 29.17%;\nsize-adjust: 34.28%;\n\n}\n\n.className {\n    font-family: 'humaneFont', 'humaneFont Fallback';\n    \n}\n.variable {\n    --font-humane: 'humaneFont', 'humaneFont Fallback';\n}\n\n"],"names":[],"mappings":"AAAA;;;;;;;;AAOA;;;;;;;;;AAUA;;;;AAIA"}},
-    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

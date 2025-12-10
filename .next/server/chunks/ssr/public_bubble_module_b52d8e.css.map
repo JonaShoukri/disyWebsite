@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/public/bubble.module.css"],"sourcesContent":[".hoverText {\n    transition:\n            0.35s font-weight,\n            0.35s color;\n}\n\n.hoverText:hover {\n    font-weight: 900;\n    color: rgb(238, 242, 255);\n}\n\n/* To the right */\n.hoverText:hover + .hoverText {\n    font-weight: 500;\n    color: rgb(199, 210, 254);\n}\n\n.hoverText:hover + .hoverText + .hoverText {\n    font-weight: 300;\n}\n\n/* To the left */\n.hoverText:has(+ .hoverText:hover) {\n    font-weight: 500;\n    color: rgb(199, 210, 254);\n}\n\n.hoverText:has(+ .hoverText + .hoverText:hover) {\n    font-weight: 300;\n}\n"],"names":[],"mappings":"AAAA;;;;AAMA;;;;;AAMA;;;;;AAKA;;;;AAKA;;;;;AAKA"}},
-    {"offset": {"line": 27, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

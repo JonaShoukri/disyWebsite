@@ -1,0 +1,43 @@
+/* [project]/app/dirtylinefont_3a219c0.module.css [app-client] (css) */
+@font-face {
+  font-family: dirtylineFont;
+  src: url("../media/Dirtyline 36daysoftype 2022-s.p.639659a9.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: dirtylineFont;
+  src: url("../media/Dirtyline 36daysoftype 2022-s.p.6f7d9fb4.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: dirtylineFont;
+  src: url("../media/Dirtyline 36daysoftype 2022-s.p.1e9b4bf3.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: dirtylineFont Fallback;
+  src: local(Arial);
+  ascent-override: 67.01%;
+  descent-override: 22.34%;
+  line-gap-override: 8.94%;
+  size-adjust: 111.92%;
+}
+
+.dirtylinefont_3a219c0-module__-h_f-a__className {
+  font-family: dirtylineFont, dirtylineFont Fallback;
+}
+
+.dirtylinefont_3a219c0-module__-h_f-a__variable {
+  --font-dirtyline: "dirtylineFont", "dirtylineFont Fallback";
+}
+
+/*# sourceMappingURL=app_dirtylinefont_3a219c0_module_css_bad6b30c._.single.css.map*/

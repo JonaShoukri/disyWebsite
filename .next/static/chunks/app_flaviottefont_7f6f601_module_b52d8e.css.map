@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/flaviottefont_7f6f601.module.css"],"sourcesContent":["@font-face {\n    font-family: 'flaviotteFont';\n    src: url('@vercel/turbopack-next/internal/font/local/font?{%22path%22:%22../public/fonts/Flaviotte.woff2%22,%22preload%22:true,%22has_size_adjust%22:true}') format('woff2');\n    font-display: swap;\n    font-weight: 400;font-style: normal;\n}\n\n@font-face {\n    font-family: 'flaviotteFont Fallback';\n    src: local(\"Arial\");\n    ascent-override: 81.68%;\ndescent-override: 24.23%;\nline-gap-override: 16.26%;\nsize-adjust: 99.04%;\n\n}\n\n.className {\n    font-family: 'flaviotteFont', 'flaviotteFont Fallback';\n    \n}\n.variable {\n    --font-flaviotte: 'flaviotteFont', 'flaviotteFont Fallback';\n}\n\n"],"names":[],"mappings":"AAAA;;;;;;;;AAOA;;;;;;;;;AAUA;;;;AAIA"}},
-    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/jonas/Documents/GitHub/disyWebsite/app/services/page.tsx"],"sourcesContent":["import { motion } from \"framer-motion\";\nexport default function ServicesPage(){\n    return (\n        <div className=\"fixed inset-0 flex flex-col items-center justify-center\">\n            <motion.h1\n                className=\"text-5xl font-bold mb-12 tracking-wide uppercase\"\n                initial={{opacity: 0, y: -20}}\n                animate={{opacity: 1, y: 0}}\n                transition={{duration: 0.5}}\n            >\n                Services\n            </motion.h1>\n        </div>\n    );\n}"],"names":[],"mappings":";;;;AAAA;;;AACe,SAAS;IACpB,qBACI,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC,wJAAA,CAAA,SAAM,CAAC,EAAE;YACN,WAAU;YACV,SAAS;gBAAC,SAAS;gBAAG,GAAG,CAAC;YAAE;YAC5B,SAAS;gBAAC,SAAS;gBAAG,GAAG;YAAC;YAC1B,YAAY;gBAAC,UAAU;YAAG;sBAC7B;;;;;;;;;;;AAKb"}},
-    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 53, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
-    {"offset": {"line": 53, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
