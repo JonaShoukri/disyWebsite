@@ -141,7 +141,7 @@ function AnimatedWord({
 }
 
 // Service tier card component
-function TierCard({ tier, index }: { tier: ServiceTier; index: number }) {
+function TierCard({ tier }: { tier: ServiceTier }) {
     const [isHovered, setIsHovered] = useState(false);
     const pathname = usePathname();
     const baseAnimDelay = pathname === "/" ? tier.delay : tier.delay + 0.3;
@@ -451,8 +451,8 @@ export default function ServicesPage() {
 
                     {/* Cards grid */}
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
-                        {tiers.map((tier, index) => (
-                            <TierCard key={tier.name} tier={tier} index={index} />
+                        {tiers.map((tier) => (
+                            <TierCard key={tier.name} tier={tier} />
                         ))}
                     </div>
                 </div>
