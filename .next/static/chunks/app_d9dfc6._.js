@@ -149,74 +149,72 @@ var _s = __turbopack_refresh__.signature();
 ;
 ;
 ;
-function NavTab({ href, letters, position, verticalPos, baseDelay, altDelay, reverseAnimation = false // if true, last letter animates first
- }) {
+function NavTab({ href, letters, position, verticalPos, baseDelay, altDelay, reverseAnimation = false }) {
     _s();
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
     const delay = pathname === "/" ? baseDelay : altDelay;
     const [isHovered, setIsHovered] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const isLeft = position === 'left';
     const initialX = isLeft ? -50 : 50;
-    const hoverX = isLeft ? 5 : -5;
-    // Calculate delay for each letter
+    const hoverX = isLeft ? 8 : -8;
     const getLetterDelay = (index)=>{
         if (reverseAnimation) {
             return delay + (letters.length - 1 - index) * 0.1;
         }
         return delay + index * 0.1;
     };
-    const Wrapper = href ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] : 'div';
-    const wrapperProps = href ? {
-        href
-    } : {};
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Wrapper, {
-        ...wrapperProps,
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: `text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute ${position}-0 ${verticalPos} transform -translate-y-1/2 flex flex-col items-center group ${isLeft ? 'pl-5' : 'pr-5'}`,
-            onMouseEnter: ()=>setIsHovered(true),
-            onMouseLeave: ()=>setIsHovered(false),
-            children: letters.map((letter, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
-                    initial: {
-                        x: initialX,
-                        opacity: 0
+    const content = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `text-l m:text-l lg:text-2xl text-[#EAEAEC] absolute ${position}-0 ${verticalPos} transform -translate-y-1/2 flex flex-col items-center group ${isLeft ? 'pl-5' : 'pr-5'}`,
+        onMouseEnter: ()=>setIsHovered(true),
+        onMouseLeave: ()=>setIsHovered(false),
+        children: letters.map((letter, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
+                initial: {
+                    x: initialX,
+                    opacity: 0
+                },
+                animate: {
+                    x: isHovered ? hoverX : 0,
+                    opacity: 1,
+                    color: isHovered ? '#CEABC1' : '#EAEAEC'
+                },
+                transition: {
+                    x: {
+                        duration: isHovered ? 0.1 : 1,
+                        ease: "easeInOut",
+                        delay: isHovered ? 0 : getLetterDelay(index)
                     },
-                    animate: {
-                        x: isHovered ? hoverX : 0,
-                        opacity: 1,
-                        color: isHovered ? '#CEABC1' : '#EAEAEC'
+                    opacity: {
+                        duration: 1,
+                        ease: "easeInOut",
+                        delay: getLetterDelay(index)
                     },
-                    transition: {
-                        x: {
-                            duration: isHovered ? 0.1 : 1,
-                            ease: "easeInOut",
-                            delay: isHovered ? 0 : getLetterDelay(index)
-                        },
-                        opacity: {
-                            duration: 1,
-                            ease: "easeInOut",
-                            delay: getLetterDelay(index)
-                        },
-                        color: {
-                            duration: 0.1,
-                            ease: "easeInOut"
-                        }
-                    },
-                    children: letter
-                }, index, false, {
-                    fileName: "[project]/app/components/Tabs/NavTab.tsx",
-                    lineNumber: 43,
-                    columnNumber: 21
-                }, this))
-        }, void 0, false, {
-            fileName: "[project]/app/components/Tabs/NavTab.tsx",
-            lineNumber: 37,
-            columnNumber: 13
-        }, this)
+                    color: {
+                        duration: 0.1,
+                        ease: "easeInOut"
+                    }
+                },
+                children: letter
+            }, index, false, {
+                fileName: "[project]/app/components/Tabs/NavTab.tsx",
+                lineNumber: 48,
+                columnNumber: 17
+            }, this))
     }, void 0, false, {
         fileName: "[project]/app/components/Tabs/NavTab.tsx",
-        lineNumber: 36,
+        lineNumber: 42,
         columnNumber: 9
     }, this);
+    if (href) {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            href: href,
+            children: content
+        }, void 0, false, {
+            fileName: "[project]/app/components/Tabs/NavTab.tsx",
+            lineNumber: 77,
+            columnNumber: 16
+        }, this);
+    }
+    return content;
 }
 _s(NavTab, "tODCxJaZ4s3dFr3pcqQNvamRq/Q=", false, function() {
     return [
