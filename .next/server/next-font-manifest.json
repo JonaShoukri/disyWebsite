@@ -8,6 +8,24 @@
       "static/media/Nohemi_Regular-s.p.fa7c2a0b.woff2",
       "static/media/Nohemi_Bold-s.p.f16559cb.woff2",
       "static/media/Nohemi_ExtraBold-s.p.447729dd.woff2"
+    ],
+    "[project]/app/services/consulting/appointment/page": [
+      "static/media/Dirtyline 36daysoftype 2022-s.p.639659a9.woff2",
+      "static/media/Dirtyline 36daysoftype 2022-s.p.6f7d9fb4.woff",
+      "static/media/Dirtyline 36daysoftype 2022-s.p.1e9b4bf3.ttf",
+      "static/media/Nohemi_Thin-s.p.ea63b9a6.woff2",
+      "static/media/Nohemi_Regular-s.p.fa7c2a0b.woff2",
+      "static/media/Nohemi_Bold-s.p.f16559cb.woff2",
+      "static/media/Nohemi_ExtraBold-s.p.447729dd.woff2"
+    ],
+    "[project]/app/services/page": [
+      "static/media/Dirtyline 36daysoftype 2022-s.p.639659a9.woff2",
+      "static/media/Dirtyline 36daysoftype 2022-s.p.6f7d9fb4.woff",
+      "static/media/Dirtyline 36daysoftype 2022-s.p.1e9b4bf3.ttf",
+      "static/media/Nohemi_Thin-s.p.ea63b9a6.woff2",
+      "static/media/Nohemi_Regular-s.p.fa7c2a0b.woff2",
+      "static/media/Nohemi_Bold-s.p.f16559cb.woff2",
+      "static/media/Nohemi_ExtraBold-s.p.447729dd.woff2"
     ]
   },
   "appUsingSizeAdjust": true,

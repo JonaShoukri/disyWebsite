@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/jonas/Documents/GitHub/disyWebsite/app/services/consulting/appointment/page.tsx"],"sourcesContent":["export default function AppointmentPage() {\n    return (\n        <div>\n            <h1 className=\"fixed inset-0 flex items-center justify-center\">Appointment Page</h1>\n        </div>\n    );\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,8OAAC;kBACG,cAAA,8OAAC;YAAG,WAAU;sBAAiD;;;;;;;;;;;AAG3E","debugId":null}}]
+}
