@@ -358,12 +358,14 @@ export default function ServicesPage() {
     return (
         // Snap scroll container - same magnetic effect as launch page
         // pointer-events-none allows clicks to pass through to Nav tabs underneath
+        // fixed + inset-0 fixes iOS Safari scroll issues
         <div
             ref={containerRef}
-            className="h-screen w-screen overflow-y-auto overflow-x-hidden snap-y snap-mandatory scroll-smooth pointer-events-none"
+            className="fixed inset-0 overflow-y-auto overflow-x-hidden snap-y snap-mandatory scroll-smooth pointer-events-none overscroll-contain"
+            style={{ WebkitOverflowScrolling: 'touch' }}
         >
             {/* Section 1: Hero - pointer-events-auto re-enables interactions for content */}
-            <section className="h-screen min-h-screen snap-always snap-start relative flex items-center justify-center px-6 lg:px-20 pointer-events-auto">
+            <section className="h-[100dvh] min-h-[100dvh] snap-always snap-start relative flex items-center justify-center px-6 lg:px-20 pointer-events-auto">
                 <div className="max-w-6xl mx-auto text-center relative z-10 text-[#EAEAEC]">
                     {/* Overline */}
                     <motion.div
@@ -506,7 +508,7 @@ export default function ServicesPage() {
             </section>
 
             {/* Section 4: CTA */}
-            <section className="h-screen min-h-screen snap-always snap-start relative px-6 lg:px-20 flex items-center justify-center pointer-events-auto">
+            <section className="h-[100dvh] min-h-[100dvh] snap-always snap-start relative px-6 lg:px-20 flex items-center justify-center pointer-events-auto">
                 <div className="max-w-4xl mx-auto text-center relative z-10 text-[#EAEAEC]">
                     <motion.h2
                         className="font-[family-name:var(--font-dirtyline)] text-4xl lg:text-6xl text-[#EAEAEC] mb-8"

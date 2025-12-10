@@ -592,6 +592,10 @@ img, video {
   height: 5rem;
 }
 
+.h-\[100dvh\] {
+  height: 100dvh;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -602,6 +606,10 @@ img, video {
 
 .min-h-\[70vh\] {
   min-height: 70vh;
+}
+
+.min-h-\[100dvh\] {
+  min-height: 100dvh;
 }
 
 .w-2\/3 {
@@ -811,6 +819,10 @@ img, video {
 
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+.overscroll-contain {
+  overscroll-behavior: contain;
 }
 
 .scroll-smooth {
