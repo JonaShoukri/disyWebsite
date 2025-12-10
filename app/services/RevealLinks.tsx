@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const RevealLinks: React.FC = () => {
     return (
-        <section className="text-[#CEABC1] w-full px-4">
+        <section className="text-[#EAEAEC] w-full px-4">
             <motion.div
                 className="transition-transform transform"
                 initial={{x: 100, opacity: 0}}
@@ -81,7 +81,7 @@ const FlipLink: React.FC<FlipLinkProps> = ({children}) => {
                     </motion.span>
                 ))}
             </div>
-            <div className="absolute inset-0 text-[#EAEAEC]">
+            <div className="absolute inset-0 text-[#CEABC1]">
                 {children.split("").map((letter, index) => (
                     <motion.span
                         key={index}

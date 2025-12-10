@@ -23,8 +23,28 @@ export default function AboutPage() {
     ];
 
     return (
-        <div className="flex w-screen h-screen">
-            <div className="w-1/2 p-4 px-28 pt-28">
+        <div className="flex flex-col sm:flex-row p-10 w-screen h-screen">
+            {/* Page Title on Mobile (Top) */}
+            <motion.div
+                initial={{y: "40%"}}
+                animate={{y: "0%"}}
+                transition={{duration: 2, ease: "easeInOut"}}
+                className="w-full sm:w-1/2 p-4 order-1 sm:order-2"
+            >
+                <Link href="/services/consulting/appointment">
+                    <div>
+                        <motion.p
+                            whileHover={{y: -10}}
+                            className="text-[8vw] sm:text-[4vw] text-[#EAEAEC] hover:text-[#CEABC1]"
+                        >
+                            BOOK YOUR FREE CONSULTATION &#9654;
+                        </motion.p>
+                    </div>
+                </Link>
+            </motion.div>
+
+            {/* Text Content (Below Title on Mobile) */}
+            <div className="w-full sm:w-1/2 p-4 px-8 sm:px-28 pt-12 order-2 sm:order-1">
                 {textLines.map((line, index) => (
                     <motion.div
                         key={index}
@@ -32,27 +52,14 @@ export default function AboutPage() {
                         animate={{x: "0%"}}
                         transition={{delay: index * 0.2, duration: 1.2, ease: "easeInOut"}}
                     >
-                        {line}<br/><br/>
+                        {line}
+                        <br/>
+                        <br/>
                     </motion.div>
                 ))}
             </div>
-            <motion.div
-                initial={{y: "40%"}}
-                animate={{y: "0%"}}
-                transition={{duration: 2, ease: "easeInOut"}}
-                className="w-1/2 p-4 ">
-                <Link href="/services/consulting/appointment">
-                    <div className="flex items-center justify-center h-full">
-                        <motion.p
-                            whileHover={{y: -10}}
-                            className="extra-bold-text text-[4vw] text-[#EAEAEC] pb-24 pr-10 absolute bottom-0 hover:text-[#CEABC1]">
-                            BOOK YOUR FREE CONSULTATION TODAY
-                        </motion.p>
-                    </div>
-                </Link>
-
-            </motion.div>
         </div>
+
 
     );
 }
