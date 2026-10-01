@@ -2,7 +2,7 @@
 export const site = {
     name: "DiSy",
     // Cal.com, connected to Jonas's Apple Calendar; Cal.com emails him on every booking.
-    bookingUrl: process.env.NEXT_PUBLIC_BOOKING_URL || "https://cal.com/client-onboarding-call-disy",
+    bookingUrl: process.env.NEXT_PUBLIC_BOOKING_URL || "https://cal.com/jonas-shoukri-wf6w4w/client-introduction-call",
     contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "",
 };
 
