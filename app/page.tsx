@@ -1,79 +1,41 @@
-"use client"
-import AnimatedLogo from "@/app/components/AnimatedLogo";
-import {motion} from "framer-motion"
-import {useEffect, useState} from "react";
-import {usePathname} from "next/navigation";
+"use client";
+import { motion } from "framer-motion";
 import Link from "next/link";
-import Title from "@/app/components/Title";
+import AnimatedLogo from "@/app/components/home/AnimatedLogo";
+import Title from "@/app/components/home/Title";
+import PageScroll from "@/app/components/layout/PageScroll";
+import { useLanguage } from "@/app/i18n/LanguageProvider";
+
 export default function Home() {
-    const [yOffset, setYOffset] = useState("46vh");
-    const pathname = usePathname();
-    const isRoot = pathname === "/";
+    const { t } = useLanguage();
 
-    useEffect(() => {
-        const updateYOffset = () => {
-            if (window.innerWidth < 768) {
-                setYOffset("37vh"); // Adjust for mobile
-            } else {
-                setYOffset("46vh"); // Default for larger screens
-            }
-        };
+    return (
+        <PageScroll snap="mandatory">
+            {/* Launch screen: the logo intro */}
+            <section className="flex h-[100dvh] snap-start snap-always items-center justify-center">
+                <AnimatedLogo />
+            </section>
 
-        updateYOffset(); // Set initial value
-        window.addEventListener("resize", updateYOffset);
-
-        return () => window.removeEventListener("resize", updateYOffset);
-    }, []);
-
-  return (
-      <div className="h-screen w-screen overflow-x-hidden snap-y snap-mandatory scroll-smooth">
-          <div className="h-screen min-h-screen flex flex-col items-center justify-center snap-always snap-start">
-              <motion.div
-                  initial={!isRoot ? {scale: 0.4, y: yOffset} : {scale: 1, y: 0}}
-                  animate={!isRoot ? {scale: 0.4, y: yOffset} : {scale: 1, y: 0}}
-                  transition={{duration: 1.2, ease: "easeInOut"}}
-              >
-                  <div className="flex items-center justify-center scale-50 md:scale-50 lg:scale-100 cursor-pointer">
-                      <AnimatedLogo/>
-                  </div>
-              </motion.div>
-          </div>
-          <div className="h-screen w-screen bg-[#EAEAEC] snap-always snap-start text-[#0A0A0A] relative">
-              <div className="flex flex-col w-screen h-screen pt-28">
-                  <div className="container mx-auto p-20 justify-evenly">
-                      <Title className="scale-75 hidden sm:block md:scale-75 lg:scale-100"/>
-                      <div className="md:flex md:flex-col md:items-center md:justify-center md:w-full">
-                          <p className="text-[#0A0A0A] pb-10 lg:pt-20 lg:w-1/2 lg:text-left lg:ml-auto md:w-full md:text-center">
-                              DiSy is a digital development and consultation firm focused on aiding small to
-                              medium-sized
-                              businesses. Our dedicated team offers end-to-end services, including custom web, app, and
-                              software development, consultations, web mastering, maintenance, and design tailored to
-                              your
-                              business needs and ethos. Whether you want a dedicated team to take care of all your
-                              digital
-                              needs or simply need expert advice on how to go about it on your own, we&apos;ve got you
-                              covered.
-                              Book your free, no-strings-attached consultation today and let us help you take your
-                              business
-                              to the next level.
-                          </p>
-                      </div>
-                  </div>
-                  <motion.div
-                      initial={{opacity: "0%"}} // Starts hidden below
-                      whileInView={{opacity: "100%"}} // Moves into view
-                      transition={{duration: 1.2, ease: "easeOut", delay: 0.3}}
-                      viewport={{once: true}}
-                      className="bg-[#CEABC1] w-full absolute bottom-20 md:bottom-0 extra-bold-text text-[#EAEAEC] text-center text-[2vw] p-4"
-                  >
-                      <Link href="/services/consulting/appointment">
-                          BOOK A CONSULTATION
-                      </Link>
-                  </motion.div>
-              </div>
-          </div>
-
-      </div>
-
-  );
+            {/* Who we are, then off to the services */}
+            <section className="relative flex min-h-[100dvh] snap-start snap-always flex-col bg-mist text-ink">
+                <div className="page-gutter mx-auto flex w-full max-w-7xl flex-1 flex-col justify-center gap-10 py-20 lg:gap-20">
+                    <Title />
+                    <p className="max-w-xl text-base leading-relaxed sm:text-lg lg:ml-auto lg:w-1/2">{t.home.intro}</p>
+                </div>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 1.2, ease: "easeOut", delay: 0.3 }}
+                    viewport={{ once: true }}
+                >
+                    <Link
+                        href="/services"
+                        className="block w-full bg-rose p-4 text-center text-[clamp(1rem,2vw,2rem)] font-extrabold uppercase text-mist transition-colors duration-300 hover:bg-ink hover:text-rose"
+                    >
+                        {t.home.cta}
+                    </Link>
+                </motion.div>
+            </section>
+        </PageScroll>
+    );
 }
