@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DiSy website
 
-## Getting Started
+Marketing site for DiSy: operations analytics for Quebec manufacturers. Next.js (App Router), Tailwind CSS and Framer Motion.
 
-First, run the development server:
+## Run it
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env.local   # then fill in the booking link and contact email
+npm run dev                  # http://localhost:3000
+npm run build && npm start   # production build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Configuration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Variable | What it does |
+|---|---|
+| `NEXT_PUBLIC_BOOKING_URL` | Scheduler link (Calendly, Cal.com, Microsoft Bookings…). Every "Book a call" button leads to `/book`, which embeds this link. |
+| `NEXT_PUBLIC_CONTACT_EMAIL` | Shown on `/book`; used as the fallback when no booking link is set. |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Where things live
 
-## Learn More
+```
+app/
+  page.tsx                 Home: launch logo, intro, link to services
+  services/page.tsx        Both services, how they work together, call to action
+  services/[slug]/page.tsx One page per service (generated from app/lib/services.ts)
+  about/page.tsx           Who DiSy is and what it stands for
+  book/page.tsx            Booking page (?service=<slug> shows the topic)
+  partners/page.tsx        Placeholder
+  components/
+    layout/                Side navigation, animated background, home mark, page scroll container
+    home/                  Launch logo and home title
+    services/              Service card and service detail page
+    ui/                    Shared building blocks (animated text, steps, buttons, hero…)
+  i18n/
+    dictionaries/fr.ts     All French copy (the source of truth for the text shape)
+    dictionaries/en.ts     All English copy (TypeScript fails the build if a key is missing)
+    LanguageProvider.tsx   Current language + switch, saved in a cookie
+  lib/
+    services.ts            List of services (slug + accent color)
+    site.ts                Booking link and contact email
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Common changes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Edit any text:** change it in both `app/i18n/dictionaries/fr.ts` and `en.ts`.
+- **Add a service:** add `{ slug, accent }` to `app/lib/services.ts`, then its copy under `services.items.<slug>` in both dictionaries. The services page, its detail page and the booking topic pick it up automatically.
+- **Add a page:** create `app/<name>/page.tsx`, wrap the content in `<PageScroll>`, read text with `useLanguage()`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Language
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+French is the default (Loi 96). A visitor whose browser prefers English gets English on the first visit; the side-nav switch saves their choice in the `disy-locale` cookie.

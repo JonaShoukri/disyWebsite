@@ -1,1 +1,17 @@
+# dependencies
 node_modules/
+
+# next.js build output
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# env files (commit .env.example only)
+.env*
+!.env.example
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

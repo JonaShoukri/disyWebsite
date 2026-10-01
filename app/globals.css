@@ -2,65 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+/* The site is designed dark-only: never follow the OS light theme. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --font-dirtyline: "Dirtyline 36daysoftype 2022", sans-serif;
-  --font-nohemi: "Nohemi-Regular", sans-serif;
+    color-scheme: dark;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+    height: 100%;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: var(--font-nohemi);
-  overflow: hidden;
-  overflow-x: hidden;
-  width: 100%;
+    @apply bg-ink text-mist font-sans;
+    /* Each page scrolls inside its own container (see PageScroll), so the body never does. */
+    overflow: hidden;
 }
 
-h1 {
-  font-size: 2.5rem; /* Adjust as needed */
-  font-weight: bold;
+@layer utilities {
+    .thin-text {
+        @apply font-sans font-thin;
+    }
+    .bold-text {
+        @apply font-sans font-bold;
+    }
+    .extra-bold-text {
+        @apply font-sans font-extrabold;
+    }
+    .funky-text {
+        @apply font-display font-normal;
+    }
+    /* Keeps content clear of the vertical nav tabs on the screen edges. */
+    .page-gutter {
+        @apply px-14 sm:px-20 lg:px-28;
+    }
 }
-
-
-.animated-logo {
-  font-family: var(--font-dirtyline), sans-serif;
-}
-
-/* FONT STYLES */
-
-.thin-text {
-  font-family: var(--font-nohemi);
-  font-weight: 100; /* Thin */
-}
-
-.regular-text {
-  font-family: var(--font-nohemi);
-  font-weight: 400; /* Regular */
-}
-
-.bold-text {
-  font-family: var(--font-nohemi);
-  font-weight: 700; /* Bold */
-}
-
-.extra-bold-text {
-  font-family: var(--font-nohemi);
-  font-weight: 800; /* Extra Bold */
-}
-
-.funky-text {
-  font-family: var(--font-dirtyline), sans-serif;
-  font-weight: 400; /* Extra Bold */
-}
-
-/* typing effect */
-
