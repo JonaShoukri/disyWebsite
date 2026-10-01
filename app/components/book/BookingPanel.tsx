@@ -4,7 +4,7 @@ import PageHero from "@/app/components/ui/PageHero";
 import Reveal from "@/app/components/ui/Reveal";
 import { useLanguage } from "@/app/i18n/LanguageProvider";
 import type { ServiceSlug } from "@/app/lib/services";
-import { site } from "@/app/lib/site";
+import { bookingEmbedUrl, site } from "@/app/lib/site";
 
 /**
  * Where every "book a call" lands. With NEXT_PUBLIC_BOOKING_URL set, the scheduler is embedded;
@@ -45,7 +45,7 @@ export default function BookingPanel({ service }: { service?: ServiceSlug }) {
                 <section className="page-gutter snap-start pb-28">
                     <Reveal className="mx-auto max-w-4xl">
                         <iframe
-                            src={site.bookingUrl}
+                            src={bookingEmbedUrl()}
                             title={b.calendarTitle}
                             className="h-[min(760px,85dvh)] w-full rounded-2xl border border-line bg-card"
                             loading="lazy"

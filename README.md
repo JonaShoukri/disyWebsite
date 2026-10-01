@@ -15,7 +15,7 @@ npm run build && npm start   # production build
 
 | Variable | What it does |
 |---|---|
-| `NEXT_PUBLIC_BOOKING_URL` | Scheduler link (Calendly, Cal.com, Microsoft Bookings…). Every "Book a call" button leads to `/book`, which embeds this link. |
+| `NEXT_PUBLIC_BOOKING_URL` | Scheduler link. Defaults to the DiSy Cal.com page (connected to Apple Calendar, emails on every booking). Every "Book a call" button leads to `/book`, which embeds it. |
 | `NEXT_PUBLIC_CONTACT_EMAIL` | Shown on `/book`; used as the fallback when no booking link is set. |
 
 ## Where things live
